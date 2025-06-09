@@ -1,6 +1,11 @@
 # Machine Learning Project Ideas for Traumatic Brain Injury Dataset
 
-This dataset contains 112 pediatric TBI records with 42 clinical fields, including demographics, accident details, vitals, imaging findings, and outcomes.
+This repository includes two sources of TBI data:
+
+- **Jordan pediatric dataset** – 112 records with 42 clinical fields.
+- **TITCO India dataset** – 16,000 trauma episodes (7,978 with intracranial injuries after filtering on CT ICD codes).
+
+Together these data contain demographics, accident details, vitals, imaging findings, interventions and outcomes.
 
 Below are potential machine learning projects that could be developed using these data, along with suggestions for gathering additional data or applying transfer learning from publicly available models.
 

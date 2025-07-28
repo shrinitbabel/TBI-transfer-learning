@@ -1,0 +1,584 @@
+age,sex,sbp,hr,rr,gcs,los,MOI,event,hr_cat,rr_cat,sbp_cat
+60.0,1.0,153.0,160.0,22.0,14.0,5.0,Gunshot Wound (GSW),1,tachycardia,tachypnea,normal
+38.0,1.0,77.0,110.0,0.0,3.0,12.0,Motor Vehicle Collision,1,tachycardia,normal,low
+61.0,1.0,148.0,82.0,18.0,14.0,2.0,Motor Vehicle Collision,1,normal,normal,normal
+62.0,1.0,150.0,95.0,20.0,14.0,2.0,Motor Vehicle Collision,1,normal,normal,normal
+22.0,1.0,200.0,82.0,0.0,3.0,7.0,Motor Vehicle Collision,1,normal,normal,normal
+28.0,1.0,80.0,139.0,0.0,3.0,2.0,Gunshot Wound (GSW),1,tachycardia,normal,low
+35.0,1.0,135.0,81.0,0.0,3.0,3.0,Gunshot Wound (GSW),1,normal,normal,normal
+57.0,1.0,150.0,54.0,0.0,3.0,5.0,Fall,1,normal,normal,normal
+45.0,0.0,110.0,78.0,0.0,3.0,2.0,Fall,1,normal,normal,normal
+83.0,1.0,170.0,95.0,0.0,3.0,6.0,Fall,1,normal,normal,normal
+52.0,1.0,136.0,71.0,18.0,9.0,7.0,Fall,1,normal,normal,normal
+54.0,1.0,133.0,89.0,6.0,3.0,11.0,Fall,1,normal,normal,normal
+62.0,0.0,110.0,64.0,0.0,7.0,1.0,Motor Vehicle Collision,1,normal,normal,normal
+21.0,1.0,140.0,64.0,6.0,4.0,1.0,Gunshot Wound (GSW),1,normal,normal,normal
+49.0,1.0,150.0,72.0,16.0,7.0,3.0,Fall,1,normal,normal,normal
+26.0,0.0,98.0,126.0,0.0,3.0,4.0,Fall,1,tachycardia,normal,normal
+44.0,1.0,130.0,134.0,0.0,3.0,4.0,Assault / Blunt Force,1,tachycardia,normal,normal
+59.0,1.0,80.0,97.0,30.0,8.0,10.0,Fall,1,normal,tachypnea,low
+75.0,1.0,160.0,110.0,16.0,10.0,26.0,Motor Vehicle Collision,1,tachycardia,normal,normal
+55.0,0.0,140.0,94.0,0.0,3.0,41.0,Fall,1,normal,normal,normal
+62.0,1.0,182.0,120.0,25.0,9.0,37.0,Fall,1,tachycardia,tachypnea,normal
+84.0,0.0,180.0,83.0,0.0,7.0,3.0,Fall,1,normal,normal,normal
+27.0,0.0,90.0,134.0,0.0,3.0,2.0,Gunshot Wound (GSW),1,tachycardia,normal,normal
+80.0,0.0,190.0,108.0,18.0,8.0,3.0,Fall,1,tachycardia,normal,normal
+57.0,0.0,130.0,69.0,20.0,10.0,2.0,Fall,1,normal,normal,normal
+45.0,1.0,130.0,114.0,0.0,3.0,2.0,Assault / Blunt Force,1,tachycardia,normal,normal
+56.0,1.0,102.0,95.0,0.0,6.0,4.0,Gunshot Wound (GSW),1,normal,normal,normal
+43.0,1.0,200.0,100.0,0.0,4.0,5.0,Gunshot Wound (GSW),1,normal,normal,normal
+46.0,1.0,160.0,108.0,0.0,14.0,4.0,Assault / Blunt Force,1,tachycardia,normal,normal
+25.0,0.0,102.0,55.0,0.0,3.0,4.0,Motor Vehicle Collision,1,normal,normal,normal
+87.0,1.0,208.0,81.0,18.0,14.0,4.0,Fall,1,normal,normal,normal
+45.0,1.0,210.0,148.0,22.0,4.0,4.0,Fall,1,tachycardia,tachypnea,normal
+19.0,1.0,106.0,63.0,0.0,3.0,7.0,Gunshot Wound (GSW),1,normal,normal,normal
+68.0,1.0,198.0,79.0,24.0,10.0,8.0,Fall,1,normal,tachypnea,normal
+69.0,0.0,116.0,97.0,18.0,14.0,8.0,Motor Vehicle Collision,1,normal,normal,normal
+68.0,1.0,180.0,59.0,0.0,3.0,1.0,Motor Vehicle Collision,1,normal,normal,normal
+86.0,1.0,200.0,82.0,18.0,11.0,3.0,Fall,1,normal,normal,normal
+15.0,1.0,110.0,114.0,0.0,3.0,3.0,Motor Vehicle Collision,1,tachycardia,normal,normal
+91.0,0.0,180.0,88.0,16.0,10.0,4.0,Fall,1,normal,normal,normal
+21.0,0.0,60.0,109.0,0.0,3.0,1.0,Fall,1,tachycardia,normal,low
+73.0,1.0,130.0,104.0,20.0,15.0,15.0,Motor Vehicle Collision,1,tachycardia,normal,normal
+91.0,0.0,240.0,94.0,18.0,14.0,2.0,Fall,0,normal,normal,normal
+57.0,0.0,140.0,96.0,18.0,15.0,2.0,Fall,0,normal,normal,normal
+61.0,1.0,182.0,108.0,16.0,13.0,61.0,Fall,0,tachycardia,normal,normal
+30.0,1.0,140.0,111.0,18.0,13.0,38.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+84.0,0.0,150.0,86.0,20.0,15.0,4.0,Fall,0,normal,normal,normal
+29.0,1.0,110.0,74.0,18.0,14.0,4.0,Fall,0,normal,normal,normal
+39.0,1.0,130.0,105.0,18.0,14.0,3.0,Gunshot Wound (GSW),0,tachycardia,normal,normal
+57.0,1.0,60.0,89.0,26.0,15.0,12.0,Fall,0,normal,tachypnea,low
+70.0,0.0,125.0,104.0,18.0,15.0,4.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+54.0,1.0,127.0,73.0,16.0,15.0,7.0,Motor Vehicle Collision,0,normal,normal,normal
+26.0,1.0,182.0,74.0,18.0,15.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+67.0,1.0,163.0,67.0,20.0,15.0,5.0,Fall,0,normal,normal,normal
+47.0,0.0,130.0,93.0,20.0,14.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+36.0,1.0,140.0,107.0,18.0,15.0,4.0,Gunshot Wound (GSW),0,tachycardia,normal,normal
+53.0,1.0,182.0,102.0,20.0,15.0,2.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+62.0,1.0,58.0,115.0,16.0,14.0,18.0,Motor Vehicle Collision,0,tachycardia,normal,low
+46.0,1.0,200.0,83.0,38.0,7.0,11.0,Fall,0,normal,tachypnea,normal
+20.0,1.0,80.0,123.0,18.0,15.0,32.0,Motor Vehicle Collision,0,tachycardia,normal,low
+52.0,1.0,138.0,75.0,20.0,15.0,4.0,Other / Unknown,0,normal,normal,normal
+61.0,1.0,150.0,107.0,20.0,15.0,5.0,Fall,0,tachycardia,normal,normal
+51.0,1.0,146.0,67.0,18.0,12.0,5.0,Other / Unknown,0,normal,normal,normal
+61.0,1.0,164.0,89.0,20.0,14.0,3.0,Fall,0,normal,normal,normal
+30.0,1.0,164.0,110.0,18.0,7.0,26.0,Assault / Blunt Force,0,tachycardia,normal,normal
+52.0,1.0,110.0,82.0,18.0,14.0,6.0,Assault / Blunt Force,0,normal,normal,normal
+57.0,0.0,120.0,76.0,22.0,15.0,16.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+60.0,1.0,133.0,99.0,16.0,15.0,6.0,Fall,0,normal,normal,normal
+48.0,1.0,170.0,114.0,0.0,6.0,21.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+55.0,1.0,150.0,58.0,18.0,15.0,4.0,Fall,0,normal,normal,normal
+62.0,1.0,100.0,75.0,20.0,14.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+84.0,0.0,160.0,81.0,18.0,15.0,4.0,Fall,0,normal,normal,normal
+75.0,0.0,170.0,80.0,22.0,15.0,3.0,Fall,0,normal,tachypnea,normal
+40.0,0.0,118.0,77.0,18.0,15.0,6.0,Motor Vehicle Collision,0,normal,normal,normal
+24.0,0.0,110.0,140.0,20.0,15.0,4.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+41.0,1.0,168.0,119.0,0.0,3.0,10.0,Assault / Blunt Force,0,tachycardia,normal,normal
+55.0,0.0,90.0,72.0,20.0,15.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+29.0,1.0,97.0,133.0,0.0,3.0,11.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+60.0,1.0,136.0,82.0,18.0,15.0,4.0,Fall,0,normal,normal,normal
+44.0,1.0,130.0,65.0,0.0,8.0,3.0,Fall,0,normal,normal,normal
+28.0,1.0,130.0,149.0,22.0,8.0,12.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+43.0,1.0,140.0,118.0,20.0,14.0,5.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+89.0,0.0,170.0,85.0,16.0,15.0,6.0,Fall,0,normal,normal,normal
+34.0,0.0,98.0,82.0,20.0,15.0,3.0,Gunshot Wound (GSW),0,normal,normal,normal
+57.0,1.0,145.0,75.0,20.0,15.0,4.0,Gunshot Wound (GSW),0,normal,normal,normal
+65.0,1.0,120.0,107.0,20.0,15.0,14.0,Fall,0,tachycardia,normal,normal
+21.0,1.0,136.0,95.0,18.11383169513013,14.0,1.0,Assault / Blunt Force,0,normal,normal,normal
+26.0,1.0,130.0,80.0,18.0,14.0,2.0,Fall,0,normal,normal,normal
+33.0,1.0,148.0,99.0,16.0,15.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+38.0,1.0,145.0,108.0,18.0,7.0,5.0,Gunshot Wound (GSW),0,tachycardia,normal,normal
+36.0,1.0,100.0,116.0,0.0,5.0,8.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+61.0,1.0,160.0,109.0,22.0,12.0,1.0,Fall,0,tachycardia,tachypnea,normal
+35.0,1.0,140.0,68.0,18.0,15.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+26.0,1.0,134.0,92.0,20.0,14.0,11.0,Motor Vehicle Collision,0,normal,normal,normal
+47.0,1.0,140.0,91.0,18.0,14.0,2.0,Fall,0,normal,normal,normal
+59.0,1.0,160.0,70.0,20.0,15.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+56.0,1.0,128.0,115.0,20.0,15.0,6.0,Assault / Blunt Force,0,tachycardia,normal,normal
+31.0,0.0,122.0,77.0,18.0,15.0,2.0,Motor Vehicle Collision,0,normal,normal,normal
+46.0,1.0,122.0,133.0,10.0,8.0,13.0,Bicycle Crash,0,tachycardia,normal,normal
+44.0,0.0,110.0,87.0,16.0,14.0,4.0,Gunshot Wound (GSW),0,normal,normal,normal
+36.0,1.0,112.0,118.0,20.0,8.0,5.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+18.0,0.0,100.0,104.0,20.0,15.0,2.0,Assault / Blunt Force,0,tachycardia,normal,normal
+34.0,1.0,118.0,121.0,18.0,15.0,2.0,Assault / Blunt Force,0,tachycardia,normal,normal
+19.0,1.0,120.0,109.0,20.0,14.0,12.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+46.0,1.0,158.0,96.0,0.0,8.0,47.0,Bicycle Crash,0,normal,normal,normal
+47.0,1.0,136.93956349097567,92.97299883551261,17.17664410788056,12.63182382804581,5.0,Fall,0,normal,normal,normal
+38.0,1.0,144.0,97.0,18.0,15.0,1.0,Assault / Blunt Force,0,normal,normal,normal
+29.0,1.0,120.0,80.0,20.0,13.0,8.0,Motor Vehicle Collision,0,normal,normal,normal
+53.0,1.0,58.0,75.0,16.0,15.0,1.0,Assault / Blunt Force,0,normal,normal,low
+72.0,1.0,138.0,77.0,16.0,14.0,3.0,Fall,0,normal,normal,normal
+22.0,0.0,122.0,104.0,18.0,14.0,1.0,Fall,0,tachycardia,normal,normal
+35.0,1.0,162.0,76.0,0.0,9.0,17.0,Motor Vehicle Collision,0,normal,normal,normal
+70.0,0.0,182.0,65.0,20.0,15.0,2.0,Fall,0,normal,normal,normal
+31.0,0.0,130.0,97.0,22.0,14.0,5.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+72.0,1.0,135.0,75.0,20.0,15.0,1.0,Fall,0,normal,normal,normal
+50.0,0.0,130.0,90.0,16.0,15.0,7.0,Fall,0,normal,normal,normal
+57.0,0.0,100.0,98.0,16.0,14.0,8.0,Fall,0,normal,normal,normal
+21.0,0.0,120.0,117.0,18.0,13.0,2.0,Fall,0,tachycardia,normal,normal
+27.0,1.0,128.0,90.0,18.0,15.0,7.0,Motor Vehicle Collision,0,normal,normal,normal
+68.0,1.0,112.0,72.0,22.0,13.0,10.0,Fall,0,normal,tachypnea,normal
+25.0,0.0,120.0,145.0,20.0,15.0,2.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+53.0,1.0,114.0,96.0,18.0,15.0,3.0,Assault / Blunt Force,0,normal,normal,normal
+43.0,1.0,160.0,70.0,22.0,15.0,2.0,Bicycle Crash,0,normal,tachypnea,normal
+71.0,1.0,168.0,86.0,19.0,15.0,5.0,Fall,0,normal,normal,normal
+23.0,1.0,102.0,94.0,20.0,15.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+30.0,0.0,128.0,108.0,18.0,15.0,10.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+38.0,1.0,100.0,80.0,20.0,14.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+77.0,1.0,110.0,69.0,32.0,15.0,5.0,Fall,0,normal,tachypnea,normal
+68.0,1.0,118.0,95.0,18.0,15.0,6.0,Fall,0,normal,normal,normal
+77.0,0.0,130.0,70.0,20.0,15.0,3.0,Fall,0,normal,normal,normal
+80.0,1.0,118.0,74.0,18.0,14.0,4.0,Fall,0,normal,normal,normal
+21.0,1.0,112.0,74.0,20.0,15.0,11.0,Motor Vehicle Collision,0,normal,normal,normal
+61.0,1.0,130.0,145.0,20.0,12.0,87.0,Fall,0,tachycardia,normal,normal
+71.0,1.0,150.0,81.0,18.0,13.0,11.0,Fall,0,normal,normal,normal
+27.0,1.0,142.0,92.0,24.0,9.0,3.0,Bicycle Crash,0,normal,tachypnea,normal
+24.0,1.0,130.0,91.0,16.0,15.0,2.0,Motor Vehicle Collision,0,normal,normal,normal
+18.0,1.0,132.0,160.0,20.0,15.0,6.0,Fall,0,tachycardia,normal,normal
+28.0,0.0,116.0,94.0,20.0,13.0,2.0,Assault / Blunt Force,0,normal,normal,normal
+26.0,1.0,122.0,79.0,20.0,15.0,3.0,Fall,0,normal,normal,normal
+35.0,1.0,140.0,88.0,16.0,15.0,13.0,Motor Vehicle Collision,0,normal,normal,normal
+35.0,1.0,152.0,110.0,18.0,12.0,3.0,Fall,0,tachycardia,normal,normal
+68.0,1.0,132.0,93.0,18.0,15.0,2.0,Fall,0,normal,normal,normal
+43.0,1.0,144.0,106.0,20.0,15.0,1.0,Assault / Blunt Force,0,tachycardia,normal,normal
+47.0,1.0,78.0,101.0,16.0,9.0,34.0,Motor Vehicle Collision,0,tachycardia,normal,low
+37.0,0.0,154.0,165.0,0.0,11.0,21.0,Assault / Blunt Force,0,tachycardia,normal,normal
+63.0,1.0,92.0,111.0,16.0,15.0,8.0,Fall,0,tachycardia,normal,normal
+65.0,1.0,180.0,96.0,18.0,13.0,6.0,Fall,0,normal,normal,normal
+26.0,0.0,110.0,100.0,18.0,15.0,2.0,Motor Vehicle Collision,0,normal,normal,normal
+22.0,1.0,100.0,121.0,20.0,10.0,6.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+23.0,1.0,122.0,115.0,24.0,13.0,3.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+35.0,1.0,115.0,92.0,20.0,15.0,5.0,Gunshot Wound (GSW),0,normal,normal,normal
+27.0,1.0,102.0,122.0,20.0,3.0,42.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+33.0,0.0,79.0,53.0,8.0,3.0,6.0,Motor Vehicle Collision,0,normal,normal,low
+37.0,1.0,160.0,84.0,20.0,14.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+60.0,0.0,153.0,126.0,20.0,15.0,4.0,Fall,0,tachycardia,normal,normal
+64.0,1.0,100.0,100.0,16.0,11.0,5.0,Fall,0,normal,normal,normal
+33.0,1.0,140.0,74.0,12.0,4.0,3.0,Assault / Blunt Force,0,normal,normal,normal
+81.0,0.0,118.0,130.0,18.0,13.0,2.0,Fall,0,tachycardia,normal,normal
+23.0,1.0,108.0,52.0,24.0,7.0,11.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+17.0,0.0,124.0,90.0,20.0,15.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+75.0,1.0,179.0,98.0,18.0,14.0,2.0,Fall,0,normal,normal,normal
+68.0,0.0,142.0,93.0,16.0,10.0,8.0,Fall,0,normal,normal,normal
+67.0,1.0,150.0,80.0,18.0,15.0,1.0,Fall,0,normal,normal,normal
+66.0,1.0,158.0,79.0,18.0,12.0,5.0,Fall,0,normal,normal,normal
+47.0,1.0,134.0,80.0,18.0,15.0,4.0,Fall,0,normal,normal,normal
+25.0,1.0,118.0,97.0,20.0,15.0,1.0,Bicycle Crash,0,normal,normal,normal
+49.0,1.0,140.0,87.0,16.0,14.0,15.0,Motor Vehicle Collision,0,normal,normal,normal
+27.0,1.0,142.0,104.0,16.0,14.0,2.0,Fall,0,tachycardia,normal,normal
+38.0,1.0,132.0,131.0,30.0,14.0,2.0,Assault / Blunt Force,0,tachycardia,tachypnea,normal
+73.0,1.0,190.0,83.0,20.0,15.0,2.0,Assault / Blunt Force,0,normal,normal,normal
+27.0,1.0,140.0,95.0,18.0,15.0,1.0,Assault / Blunt Force,0,normal,normal,normal
+81.0,1.0,140.0,80.0,18.0,15.0,3.0,Fall,0,normal,normal,normal
+20.0,1.0,124.0,86.0,0.0,3.0,23.0,Other / Unknown,0,normal,normal,normal
+52.0,1.0,110.0,100.0,16.0,3.0,35.0,Motor Vehicle Collision,0,normal,normal,normal
+52.0,1.0,240.0,125.0,8.0,4.0,2.0,Fall,0,tachycardia,normal,normal
+54.0,1.0,115.0,90.0,18.0,15.0,1.0,Fall,0,normal,normal,normal
+33.0,1.0,100.0,81.0,18.0,14.0,3.0,Assault / Blunt Force,0,normal,normal,normal
+52.0,1.0,140.0,81.0,20.0,14.0,1.0,Other / Unknown,0,normal,normal,normal
+25.0,1.0,140.0,120.0,18.0,14.0,5.0,Other / Unknown,0,tachycardia,normal,normal
+54.0,1.0,130.0,85.0,16.0,15.0,4.0,Fall,0,normal,normal,normal
+60.0,1.0,122.0,98.0,19.0,14.0,2.0,Assault / Blunt Force,0,normal,normal,normal
+38.0,1.0,102.0,124.0,20.0,8.0,6.0,Other / Unknown,0,tachycardia,normal,normal
+39.0,1.0,118.0,90.0,16.0,14.0,6.0,Assault / Blunt Force,0,normal,normal,normal
+60.0,1.0,145.0,89.0,20.0,11.0,9.0,Bicycle Crash,0,normal,normal,normal
+70.0,1.0,142.0,82.0,16.0,15.0,2.0,Fall,0,normal,normal,normal
+19.0,1.0,140.0,105.0,16.0,15.0,6.0,Assault / Blunt Force,0,tachycardia,normal,normal
+36.0,1.0,128.0,86.0,18.0,13.0,13.0,Motor Vehicle Collision,0,normal,normal,normal
+46.0,0.0,125.0,79.0,18.0,11.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+78.0,1.0,160.0,127.0,20.0,13.0,5.0,Fall,0,tachycardia,normal,normal
+52.0,1.0,146.0,99.0,20.0,15.0,6.0,Motor Vehicle Collision,0,normal,normal,normal
+30.0,1.0,150.0,108.0,16.0,12.0,4.0,Bicycle Crash,0,tachycardia,normal,normal
+24.0,1.0,116.0,78.0,18.0,12.0,2.0,Assault / Blunt Force,0,normal,normal,normal
+38.0,1.0,110.0,105.0,18.0,10.0,8.0,Assault / Blunt Force,0,tachycardia,normal,normal
+30.0,1.0,120.0,90.0,0.0,3.0,34.0,Fall,0,normal,normal,normal
+35.0,1.0,140.0,82.0,0.0,3.0,27.0,Motor Vehicle Collision,0,normal,normal,normal
+37.0,1.0,160.0,97.0,16.0,14.0,3.0,Assault / Blunt Force,0,normal,normal,normal
+40.0,0.0,110.0,89.0,18.0,15.0,2.0,Motor Vehicle Collision,0,normal,normal,normal
+23.0,1.0,132.0,63.0,18.0,14.0,1.0,Other / Unknown,0,normal,normal,normal
+46.0,1.0,130.0,77.0,16.0,15.0,2.0,Motor Vehicle Collision,0,normal,normal,normal
+27.0,1.0,138.0,98.0,20.0,15.0,2.0,Assault / Blunt Force,0,normal,normal,normal
+30.0,1.0,120.0,85.0,18.0,13.0,6.0,Fall,0,normal,normal,normal
+58.0,1.0,110.0,79.0,0.0,3.0,31.0,Motor Vehicle Collision,0,normal,normal,normal
+39.0,1.0,110.0,83.0,22.0,15.0,7.0,Gunshot Wound (GSW),0,normal,tachypnea,normal
+39.0,1.0,110.0,102.0,20.0,11.0,4.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+47.0,1.0,130.0,85.0,20.0,14.0,3.0,Fall,0,normal,normal,normal
+32.0,1.0,150.0,96.0,18.0,15.0,1.0,Bicycle Crash,0,normal,normal,normal
+36.0,1.0,180.0,82.0,16.0,13.0,3.0,Fall,0,normal,normal,normal
+37.0,1.0,142.0,114.0,16.0,13.0,2.0,Fall,0,tachycardia,normal,normal
+88.0,0.0,110.0,82.0,18.0,10.0,2.0,Fall,0,normal,normal,normal
+66.0,1.0,140.0,120.0,22.0,14.0,6.0,Fall,0,tachycardia,tachypnea,normal
+53.0,1.0,136.0,88.0,20.0,12.0,7.0,Fall,0,normal,normal,normal
+38.0,1.0,172.0,118.0,20.0,14.0,2.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+56.0,1.0,150.0,125.0,18.0,15.0,8.0,Bicycle Crash,0,tachycardia,normal,normal
+24.0,1.0,130.0,112.0,16.0,15.0,2.0,Assault / Blunt Force,0,tachycardia,normal,normal
+34.0,1.0,120.0,71.0,16.0,11.0,32.0,Fall,0,normal,normal,normal
+40.0,1.0,138.0,93.0,18.0,15.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+28.0,0.0,120.0,130.0,20.0,14.0,1.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+71.0,0.0,101.0,72.0,18.0,14.0,5.0,Fall,0,normal,normal,normal
+55.0,0.0,150.0,110.0,17.0,14.0,4.0,Fall,0,tachycardia,normal,normal
+25.0,0.0,102.0,108.0,22.0,13.0,5.0,Fall,0,tachycardia,tachypnea,normal
+42.0,0.0,140.0,110.0,18.0,15.0,6.0,Gunshot Wound (GSW),0,tachycardia,normal,normal
+61.0,1.0,130.0,77.0,22.0,8.0,6.0,Fall,0,normal,tachypnea,normal
+57.0,0.0,190.0,89.0,20.0,15.0,2.0,Fall,0,normal,normal,normal
+53.0,0.0,120.0,92.0,18.0,15.0,4.0,Assault / Blunt Force,0,normal,normal,normal
+29.0,1.0,140.0,76.0,20.0,14.0,2.0,Fall,0,normal,normal,normal
+69.0,1.0,182.0,78.0,17.0,14.0,64.0,Fall,0,normal,normal,normal
+39.0,1.0,130.0,88.0,18.0,14.0,3.0,Assault / Blunt Force,0,normal,normal,normal
+69.0,1.0,121.0,76.0,16.0,15.0,2.0,Fall,0,normal,normal,normal
+35.0,1.0,148.0,107.0,17.0,14.0,4.0,Other / Unknown,0,tachycardia,normal,normal
+44.0,0.0,150.0,110.0,18.0,15.0,3.0,Fall,0,tachycardia,normal,normal
+36.0,1.0,140.0,135.0,22.0,14.0,1.0,Fall,0,tachycardia,tachypnea,normal
+64.0,0.0,110.0,89.0,16.0,10.0,5.0,Fall,0,normal,normal,normal
+46.0,0.0,122.0,112.0,16.0,14.0,8.0,Fall,0,tachycardia,normal,normal
+37.0,1.0,142.0,78.0,20.0,14.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+43.0,1.0,150.0,98.0,16.0,6.0,2.0,Assault / Blunt Force,0,normal,normal,normal
+62.0,1.0,140.0,83.0,18.0,14.0,4.0,Fall,0,normal,normal,normal
+54.0,1.0,160.0,114.0,20.0,15.0,4.0,Fall,0,tachycardia,normal,normal
+44.0,1.0,145.0,104.0,16.0,3.0,19.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+28.0,1.0,168.0,109.0,18.0,13.0,5.0,Assault / Blunt Force,0,tachycardia,normal,normal
+43.0,1.0,134.0,100.0,18.0,14.0,11.0,Fall,0,normal,normal,normal
+38.0,0.0,138.0,75.0,20.0,15.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+52.0,0.0,130.0,103.0,18.0,14.0,1.0,Fall,0,tachycardia,normal,normal
+37.0,1.0,120.0,81.0,20.0,11.0,6.0,Assault / Blunt Force,0,normal,normal,normal
+64.0,0.0,126.0,91.0,16.0,8.0,6.0,Fall,0,normal,normal,normal
+73.0,1.0,140.0,79.0,18.0,14.0,11.0,Fall,0,normal,normal,normal
+53.0,1.0,142.0,96.0,18.0,14.0,2.0,Fall,0,normal,normal,normal
+59.0,1.0,160.0,94.0,18.0,14.0,5.0,Fall,0,normal,normal,normal
+44.0,1.0,122.0,97.0,12.0,6.0,7.0,Fall,0,normal,normal,normal
+63.0,1.0,136.0,90.0,18.0,14.0,12.0,Motor Vehicle Collision,0,normal,normal,normal
+68.0,1.0,130.0,124.0,20.0,14.0,8.0,Fall,0,tachycardia,normal,normal
+61.0,0.0,144.0,120.0,20.0,15.0,2.0,Fall,0,tachycardia,normal,normal
+28.0,1.0,172.0,120.0,20.0,14.0,3.0,Assault / Blunt Force,0,tachycardia,normal,normal
+64.0,0.0,139.0,79.0,18.0,14.0,2.0,Fall,0,normal,normal,normal
+40.0,1.0,112.0,101.0,18.0,13.0,1.0,Fall,0,tachycardia,normal,normal
+34.0,1.0,130.0,96.0,18.0,12.0,8.0,Motor Vehicle Collision,0,normal,normal,normal
+62.0,0.0,130.0,103.0,20.0,15.0,4.0,Fall,0,tachycardia,normal,normal
+30.0,0.0,132.0,122.0,0.0,3.0,49.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+57.0,1.0,150.0,62.0,18.0,14.0,2.0,Fall,0,normal,normal,normal
+49.0,0.0,131.0,105.0,18.0,14.0,3.0,Other / Unknown,0,tachycardia,normal,normal
+58.0,1.0,127.0,90.0,20.0,15.0,2.0,Fall,0,normal,normal,normal
+67.0,1.0,180.0,106.0,18.0,14.0,7.0,Fall,0,tachycardia,normal,normal
+42.0,0.0,110.0,95.0,18.0,14.0,6.0,Fall,0,normal,normal,normal
+28.0,1.0,150.0,106.0,20.0,15.0,1.0,Bicycle Crash,0,tachycardia,normal,normal
+44.0,1.0,200.0,125.0,0.0,3.0,7.0,Assault / Blunt Force,0,tachycardia,normal,normal
+40.0,1.0,150.0,107.0,20.0,14.0,5.0,Fall,0,tachycardia,normal,normal
+46.0,1.0,162.0,84.0,18.0,15.0,2.0,Assault / Blunt Force,0,normal,normal,normal
+43.0,1.0,122.0,91.0,16.0,12.0,6.0,Assault / Blunt Force,0,normal,normal,normal
+54.0,1.0,138.0,112.0,18.0,14.0,2.0,Assault / Blunt Force,0,tachycardia,normal,normal
+49.0,1.0,128.0,111.0,20.0,14.0,5.0,Bicycle Crash,0,tachycardia,normal,normal
+26.0,1.0,142.0,120.0,16.0,14.0,3.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+61.0,1.0,124.0,87.0,20.0,14.0,18.0,Fall,0,normal,normal,normal
+64.0,0.0,110.0,81.0,16.0,15.0,9.0,Fall,0,normal,normal,normal
+28.0,1.0,120.0,117.0,16.0,9.0,7.0,Fall,0,tachycardia,normal,normal
+47.0,0.0,142.0,123.0,20.0,15.0,3.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+39.0,1.0,135.0,90.0,18.0,15.0,6.0,Assault / Blunt Force,0,normal,normal,normal
+42.0,1.0,112.0,102.0,20.0,10.0,5.0,Assault / Blunt Force,0,tachycardia,normal,normal
+46.0,1.0,140.0,70.0,18.0,15.0,3.0,Fall,0,normal,normal,normal
+42.0,0.0,160.0,96.0,18.0,12.0,6.0,Fall,0,normal,normal,normal
+59.0,1.0,128.0,87.0,16.0,15.0,6.0,Fall,0,normal,normal,normal
+46.0,1.0,156.0,121.0,18.0,14.0,1.0,Assault / Blunt Force,0,tachycardia,normal,normal
+25.0,1.0,127.0,144.0,12.0,6.0,3.0,Fall,0,tachycardia,normal,normal
+41.0,1.0,140.0,140.0,20.0,15.0,5.0,Fall,0,tachycardia,normal,normal
+63.0,1.0,150.0,82.0,22.0,3.0,2.0,Fall,0,normal,tachypnea,normal
+31.0,1.0,148.0,105.0,0.0,3.0,4.0,Fall,0,tachycardia,normal,normal
+47.0,1.0,126.0,91.0,18.0,9.0,6.0,Assault / Blunt Force,0,normal,normal,normal
+42.0,1.0,150.0,122.0,30.0,13.0,11.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+53.0,0.0,184.0,128.0,16.0,3.0,50.0,Assault / Blunt Force,0,tachycardia,normal,normal
+65.0,0.0,110.0,81.0,16.0,15.0,5.0,Fall,0,normal,normal,normal
+44.0,0.0,202.0,121.0,24.0,14.0,1.0,Fall,0,tachycardia,tachypnea,normal
+63.0,0.0,132.0,64.0,18.0,15.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+18.0,1.0,160.0,178.0,26.0,15.0,5.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+59.0,1.0,170.0,80.0,22.0,14.0,2.0,Assault / Blunt Force,0,normal,tachypnea,normal
+22.0,1.0,148.0,65.0,18.0,15.0,1.0,Motor Vehicle Collision,0,normal,normal,normal
+39.0,1.0,104.0,86.0,22.0,8.0,56.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+17.0,1.0,130.0,103.0,22.0,15.0,19.0,Bicycle Crash,0,tachycardia,tachypnea,normal
+33.0,1.0,130.0,101.0,21.0,11.0,5.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+63.0,1.0,100.0,107.0,16.0,6.0,6.0,Fall,0,tachycardia,normal,normal
+85.0,1.0,160.0,82.0,16.0,13.0,3.0,Fall,0,normal,normal,normal
+21.0,1.0,190.0,100.0,24.0,14.0,14.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+58.0,1.0,160.0,63.0,20.0,11.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+46.0,1.0,170.0,108.0,0.0,3.0,49.0,Fall,0,tachycardia,normal,normal
+54.0,1.0,200.0,141.0,20.0,8.0,21.0,Fall,0,tachycardia,normal,normal
+78.0,1.0,160.0,64.0,18.0,15.0,5.0,Bicycle Crash,0,normal,normal,normal
+39.0,1.0,182.0,84.0,0.0,4.0,36.0,Assault / Blunt Force,0,normal,normal,normal
+78.0,0.0,170.0,92.0,18.0,14.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+65.0,1.0,138.0,138.0,86.0,5.0,50.0,Fall,0,tachycardia,tachypnea,normal
+63.0,1.0,168.0,67.0,20.0,7.0,13.0,Other / Unknown,0,normal,normal,normal
+60.0,1.0,168.0,57.0,22.0,9.0,34.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+40.0,1.0,104.0,111.0,20.0,14.0,28.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+52.0,1.0,171.0,122.0,0.0,3.0,13.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+27.0,0.0,120.0,63.0,16.0,9.0,29.0,Motor Vehicle Collision,0,normal,normal,normal
+15.0,0.0,128.0,157.0,24.0,11.0,27.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+71.0,1.0,160.0,92.0,5.0,3.0,68.0,Other / Unknown,0,normal,normal,normal
+21.0,1.0,102.0,154.0,0.0,4.0,18.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+67.0,1.0,140.0,127.0,16.0,9.0,27.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+57.0,1.0,110.0,86.0,18.0,15.0,36.0,Motor Vehicle Collision,0,normal,normal,normal
+66.0,1.0,120.0,95.0,0.0,3.0,35.0,Motor Vehicle Collision,0,normal,normal,normal
+59.0,1.0,80.0,121.0,22.0,15.0,28.0,Gunshot Wound (GSW),0,tachycardia,tachypnea,low
+29.0,1.0,90.0,119.0,24.0,7.0,78.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+90.0,0.0,140.0,80.0,20.0,8.0,28.0,Fall,0,normal,normal,normal
+33.0,1.0,110.0,123.0,16.0,14.0,2.0,Fall,0,tachycardia,normal,normal
+53.0,1.0,158.0,101.0,18.0,15.0,8.0,Fall,0,tachycardia,normal,normal
+52.0,1.0,130.0,122.0,18.0,15.0,3.0,Fall,0,tachycardia,normal,normal
+71.0,1.0,178.0,77.0,16.0,11.0,45.0,Fall,0,normal,normal,normal
+56.0,1.0,120.0,80.0,15.0,13.0,12.0,Fall,0,normal,normal,normal
+72.0,1.0,130.0,65.0,20.0,11.0,7.0,Fall,0,normal,normal,normal
+41.0,1.0,142.0,85.0,20.0,15.0,14.0,Fall,0,normal,normal,normal
+72.0,1.0,184.0,84.0,16.0,15.0,4.0,Fall,0,normal,normal,normal
+60.0,1.0,176.0,89.0,20.0,14.0,9.0,Fall,0,normal,normal,normal
+75.0,1.0,130.0,67.0,18.0,14.0,22.0,Fall,0,normal,normal,normal
+23.0,1.0,180.0,88.0,18.0,10.0,15.0,Gunshot Wound (GSW),0,normal,normal,normal
+46.0,1.0,140.0,99.0,18.0,14.0,5.0,Fall,0,normal,normal,normal
+62.0,1.0,130.0,68.0,18.0,14.0,4.0,Fall,0,normal,normal,normal
+46.0,0.0,97.0,81.0,18.0,15.0,6.0,Fall,0,normal,normal,normal
+32.0,1.0,142.0,84.0,20.0,15.0,3.0,Fall,0,normal,normal,normal
+62.0,0.0,90.0,97.0,16.0,14.0,22.0,Fall,0,normal,normal,normal
+19.0,0.0,132.0,85.0,20.0,15.0,9.0,Gunshot Wound (GSW),0,normal,normal,normal
+37.0,1.0,209.0,113.0,12.0,3.0,5.0,Fall,0,tachycardia,normal,normal
+61.0,1.0,148.0,111.0,0.0,3.0,2.0,Fall,0,tachycardia,normal,normal
+19.0,0.0,110.0,61.0,18.0,15.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+62.0,1.0,140.0,111.0,22.0,8.0,10.0,Fall,0,tachycardia,tachypnea,normal
+50.0,1.0,140.0,81.0,18.0,11.0,8.0,Bicycle Crash,0,normal,normal,normal
+45.0,1.0,181.0,96.0,0.0,3.0,7.0,Fall,0,normal,normal,normal
+21.0,1.0,100.0,82.0,12.0,3.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+20.0,1.0,104.0,80.0,20.0,11.0,14.0,Motor Vehicle Collision,0,normal,normal,normal
+66.0,0.0,250.0,147.0,32.0,9.0,11.0,Fall,0,tachycardia,tachypnea,normal
+56.0,1.0,213.0,113.0,0.0,3.0,5.0,Fall,0,tachycardia,normal,normal
+67.0,0.0,140.0,65.0,6.0,5.0,2.0,Fall,0,normal,normal,normal
+32.0,1.0,110.0,114.0,20.0,14.0,4.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+38.0,0.0,128.0,112.0,0.0,11.0,5.0,Assault / Blunt Force,0,tachycardia,normal,normal
+23.0,0.0,118.0,79.0,20.0,13.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+30.0,1.0,134.0,133.0,0.0,10.0,8.0,Fall,0,tachycardia,normal,normal
+25.0,1.0,112.0,99.0,26.0,13.0,11.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+25.0,1.0,160.0,88.0,28.0,7.0,3.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+63.0,0.0,158.0,124.0,24.0,3.0,23.0,Fall,0,tachycardia,tachypnea,normal
+53.0,0.0,145.0,121.0,16.0,14.0,4.0,Gunshot Wound (GSW),0,tachycardia,normal,normal
+32.0,1.0,110.0,116.0,20.0,15.0,34.0,Other / Unknown,0,tachycardia,normal,normal
+37.0,0.0,138.0,77.0,15.0,15.0,8.0,Motor Vehicle Collision,0,normal,normal,normal
+22.0,0.0,120.0,72.0,12.0,14.0,12.0,Motor Vehicle Collision,0,normal,normal,normal
+55.0,1.0,134.0,80.0,10.0,13.0,14.0,Motor Vehicle Collision,0,normal,normal,normal
+70.0,1.0,168.0,60.0,20.0,9.0,7.0,Fall,0,normal,normal,normal
+25.0,0.0,110.0,87.0,20.0,7.0,10.0,Motor Vehicle Collision,0,normal,normal,normal
+43.0,0.0,180.0,90.0,18.0,14.0,10.0,Other / Unknown,0,normal,normal,normal
+32.0,1.0,86.0,68.0,16.0,11.0,8.0,Gunshot Wound (GSW),0,normal,normal,low
+53.0,1.0,170.0,87.0,18.0,14.0,10.0,Motor Vehicle Collision,0,normal,normal,normal
+21.0,1.0,150.0,81.0,16.0,11.0,18.0,Fall,0,normal,normal,normal
+59.0,1.0,130.0,85.0,20.0,14.0,20.0,Fall,0,normal,normal,normal
+20.0,1.0,138.0,104.0,22.0,13.0,14.0,Assault / Blunt Force,0,tachycardia,tachypnea,normal
+20.0,1.0,166.0,102.0,18.0,4.0,19.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+37.0,1.0,110.0,43.0,16.0,6.0,22.0,Motor Vehicle Collision,0,normal,normal,normal
+21.0,0.0,110.0,112.0,18.0,13.0,16.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+54.0,0.0,160.0,131.0,0.0,3.0,16.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+81.0,0.0,197.0,124.0,20.0,14.0,35.0,Fall,0,tachycardia,normal,normal
+61.0,1.0,130.0,75.0,18.0,14.0,33.0,Motor Vehicle Collision,0,normal,normal,normal
+16.0,1.0,132.0,174.0,0.0,3.0,50.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+26.0,0.0,130.0,131.0,28.0,15.0,2.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+22.0,1.0,156.0,104.0,20.0,12.0,9.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+38.0,1.0,138.0,94.0,18.0,14.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+53.0,0.0,138.0,111.0,28.0,14.0,6.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+40.0,1.0,112.0,90.0,18.0,15.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+59.0,1.0,130.0,90.0,20.0,15.0,9.0,Motor Vehicle Collision,0,normal,normal,normal
+17.0,1.0,110.0,127.0,20.0,15.0,10.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+49.0,1.0,160.0,62.0,20.0,15.0,1.0,Motor Vehicle Collision,0,normal,normal,normal
+27.0,1.0,122.0,60.0,20.0,15.0,1.0,Fall,0,normal,normal,normal
+65.0,1.0,160.0,61.0,20.0,15.0,7.0,Fall,0,normal,normal,normal
+20.0,0.0,104.0,120.0,20.0,12.0,2.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+21.0,1.0,160.0,149.0,24.0,11.0,4.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+60.0,1.0,185.0,82.0,20.0,14.0,8.0,Fall,0,normal,normal,normal
+39.0,1.0,136.0,92.0,18.0,14.0,10.0,Fall,0,normal,normal,normal
+86.0,1.0,210.0,75.0,18.0,14.0,5.0,Fall,0,normal,normal,normal
+17.0,1.0,122.0,73.0,18.0,15.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+34.0,0.0,130.0,86.0,14.0,15.0,2.0,Bicycle Crash,0,normal,normal,normal
+42.0,1.0,150.0,100.0,20.0,15.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+56.0,1.0,160.0,113.0,20.0,14.0,8.0,Assault / Blunt Force,0,tachycardia,normal,normal
+18.0,1.0,110.0,69.0,18.0,15.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+95.0,0.0,164.0,76.0,20.0,14.0,4.0,Fall,0,normal,normal,normal
+57.0,1.0,134.0,73.0,18.0,14.0,5.0,Assault / Blunt Force,0,normal,normal,normal
+71.0,1.0,140.0,71.0,14.0,11.0,11.0,Fall,0,normal,normal,normal
+49.0,1.0,168.0,51.0,16.0,13.0,2.0,Bicycle Crash,0,normal,normal,normal
+50.0,1.0,175.0,82.0,18.0,15.0,2.0,Other / Unknown,0,normal,normal,normal
+62.0,1.0,180.0,78.0,18.0,14.0,22.0,Fall,0,normal,normal,normal
+84.0,1.0,106.0,89.0,24.0,10.0,10.0,Fall,0,normal,tachypnea,normal
+48.0,1.0,118.0,69.0,18.0,15.0,1.0,Gunshot Wound (GSW),0,normal,normal,normal
+48.0,1.0,110.0,79.0,18.0,14.0,9.0,Motor Vehicle Collision,0,normal,normal,normal
+70.0,1.0,120.0,76.0,16.0,13.0,4.0,Fall,0,normal,normal,normal
+60.0,1.0,130.0,96.0,18.0,6.0,40.0,Fall,0,normal,normal,normal
+62.0,1.0,142.0,99.0,18.0,15.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+41.0,1.0,130.0,71.0,18.0,14.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+21.0,0.0,142.0,96.0,24.0,13.0,8.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+40.0,1.0,118.0,103.0,20.0,15.0,2.0,Assault / Blunt Force,0,tachycardia,normal,normal
+57.0,1.0,217.0,80.0,16.0,14.0,13.0,Fall,0,normal,normal,normal
+30.0,0.0,110.0,116.0,24.0,15.0,7.0,Assault / Blunt Force,0,tachycardia,tachypnea,normal
+68.0,0.0,148.0,85.0,18.0,15.0,3.0,Fall,0,normal,normal,normal
+89.0,0.0,163.0,72.0,18.0,15.0,2.0,Fall,0,normal,normal,normal
+34.0,1.0,140.0,121.0,22.0,14.0,1.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+24.0,1.0,152.0,96.0,18.0,15.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+37.0,1.0,122.0,68.0,0.0,15.0,2.0,Assault / Blunt Force,0,normal,normal,normal
+70.0,1.0,160.0,105.0,20.0,14.0,5.0,Fall,0,tachycardia,normal,normal
+56.0,1.0,160.0,75.0,17.0,12.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+64.0,0.0,117.0,66.0,18.0,14.0,3.0,Fall,0,normal,normal,normal
+89.0,0.0,160.0,99.0,18.0,15.0,8.0,Fall,0,normal,normal,normal
+62.0,1.0,153.0,94.0,18.0,15.0,3.0,Fall,0,normal,normal,normal
+45.0,0.0,100.0,75.0,20.0,14.0,8.0,Motor Vehicle Collision,0,normal,normal,normal
+19.0,0.0,110.0,88.0,18.0,15.0,2.0,Assault / Blunt Force,0,normal,normal,normal
+78.0,0.0,142.0,80.0,20.0,15.0,2.0,Fall,0,normal,normal,normal
+41.0,1.0,112.0,80.0,22.0,13.0,5.0,Fall,0,normal,tachypnea,normal
+65.0,0.0,160.0,80.0,18.0,14.0,8.0,Fall,0,normal,normal,normal
+63.0,1.0,170.0,125.0,18.0,15.0,4.0,Fall,0,tachycardia,normal,normal
+24.0,1.0,120.0,79.0,16.0,15.0,1.0,Motor Vehicle Collision,0,normal,normal,normal
+36.0,1.0,118.0,94.0,18.0,15.0,2.0,Assault / Blunt Force,0,normal,normal,normal
+40.0,1.0,150.0,78.0,20.0,15.0,7.0,Assault / Blunt Force,0,normal,normal,normal
+69.0,0.0,108.0,116.0,16.0,15.0,8.0,Fall,0,tachycardia,normal,normal
+50.0,1.0,78.0,104.0,22.0,14.0,2.0,Motor Vehicle Collision,0,tachycardia,tachypnea,low
+36.0,1.0,150.0,124.0,20.0,15.0,7.0,Assault / Blunt Force,0,tachycardia,normal,normal
+61.0,1.0,190.0,99.0,24.0,15.0,5.0,Fall,0,normal,tachypnea,normal
+87.0,1.0,91.0,54.0,18.0,15.0,2.0,Fall,0,normal,normal,normal
+62.0,0.0,130.0,82.0,16.0,15.0,2.0,Motor Vehicle Collision,0,normal,normal,normal
+26.0,0.0,155.0,92.0,18.0,13.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+25.0,1.0,96.0,119.0,18.0,14.0,2.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+28.0,1.0,147.0,100.0,20.0,15.0,1.0,Motor Vehicle Collision,0,normal,normal,normal
+26.0,1.0,130.0,106.0,16.0,15.0,2.0,Fall,0,tachycardia,normal,normal
+27.0,1.0,100.0,92.0,14.0,13.0,3.0,Bicycle Crash,0,normal,normal,normal
+37.0,0.0,125.0,113.0,18.0,15.0,6.0,Assault / Blunt Force,0,tachycardia,normal,normal
+23.0,0.0,100.0,91.0,16.0,15.0,3.0,Fall,0,normal,normal,normal
+59.0,1.0,140.0,81.0,16.0,14.0,3.0,Assault / Blunt Force,0,normal,normal,normal
+86.0,1.0,180.0,82.0,16.0,15.0,3.0,Fall,0,normal,normal,normal
+41.0,0.0,210.0,90.0,18.0,15.0,4.0,Fall,0,normal,normal,normal
+59.0,1.0,142.0,85.0,20.0,15.0,3.0,Fall,0,normal,normal,normal
+20.0,0.0,136.0,94.0,18.0,15.0,2.0,Motor Vehicle Collision,0,normal,normal,normal
+88.0,0.0,132.0,81.0,16.0,13.0,2.0,Fall,0,normal,normal,normal
+21.0,0.0,154.0,88.0,18.0,15.0,1.0,Motor Vehicle Collision,0,normal,normal,normal
+62.0,1.0,140.0,76.0,20.0,15.0,4.0,Fall,0,normal,normal,normal
+66.0,1.0,146.0,70.0,20.0,10.0,1.0,Bicycle Crash,0,normal,normal,normal
+47.0,1.0,184.0,136.0,20.0,3.0,25.0,Fall,0,tachycardia,normal,normal
+80.0,1.0,145.0,97.0,18.0,15.0,6.0,Fall,0,normal,normal,normal
+52.0,0.0,145.0,112.0,18.0,15.0,3.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+60.0,1.0,135.0,91.0,16.0,14.0,2.0,Assault / Blunt Force,0,normal,normal,normal
+86.0,0.0,143.0,74.0,18.0,15.0,7.0,Fall,0,normal,normal,normal
+66.0,1.0,114.0,67.0,14.0,12.0,14.0,Motor Vehicle Collision,0,normal,normal,normal
+24.0,0.0,105.0,84.0,18.0,15.0,6.0,Fall,0,normal,normal,normal
+71.0,0.0,130.0,137.0,28.0,14.0,6.0,Fall,0,tachycardia,tachypnea,normal
+43.0,1.0,50.0,59.0,18.0,14.0,3.0,Motor Vehicle Collision,0,normal,normal,low
+29.0,1.0,150.0,90.0,18.0,15.0,8.0,Fall,0,normal,normal,normal
+39.0,0.0,149.0,79.0,20.0,14.0,10.0,Motor Vehicle Collision,0,normal,normal,normal
+63.0,1.0,190.0,117.0,18.0,13.0,6.0,Fall,0,tachycardia,normal,normal
+55.0,1.0,150.0,83.0,20.0,15.0,2.0,Fall,0,normal,normal,normal
+20.0,0.0,120.0,135.0,22.0,15.0,6.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+49.0,1.0,98.0,83.0,18.0,15.0,2.0,Fall,0,normal,normal,normal
+47.0,1.0,160.0,87.0,20.0,15.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+50.0,1.0,170.0,75.0,20.0,14.0,14.0,Motor Vehicle Collision,0,normal,normal,normal
+97.0,0.0,90.0,68.0,16.0,10.0,11.0,Fall,0,normal,normal,normal
+72.0,0.0,105.0,69.0,18.0,15.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+35.0,1.0,126.0,71.0,20.0,14.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+62.0,0.0,127.0,97.0,20.0,15.0,5.0,Fall,0,normal,normal,normal
+75.0,1.0,158.0,88.0,18.0,15.0,4.0,Fall,0,normal,normal,normal
+58.0,0.0,130.0,90.0,18.0,13.0,7.0,Bicycle Crash,0,normal,normal,normal
+61.0,1.0,172.0,94.0,16.0,15.0,2.0,Fall,0,normal,normal,normal
+67.0,1.0,128.0,95.0,16.0,15.0,5.0,Fall,0,normal,normal,normal
+41.0,1.0,148.0,88.0,18.0,15.0,1.0,Motor Vehicle Collision,0,normal,normal,normal
+52.0,1.0,108.0,70.0,18.0,14.0,5.0,Bicycle Crash,0,normal,normal,normal
+51.0,1.0,130.0,59.0,18.0,15.0,2.0,Fall,0,normal,normal,normal
+56.0,1.0,140.0,72.0,20.0,15.0,8.0,Bicycle Crash,0,normal,normal,normal
+25.0,1.0,140.0,110.0,18.0,15.0,3.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+25.0,0.0,111.0,113.0,24.0,13.0,3.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+62.0,1.0,80.0,69.0,18.0,14.0,11.0,Bicycle Crash,0,normal,normal,low
+50.0,1.0,142.0,77.0,18.0,14.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+48.0,1.0,89.0,127.0,20.0,11.0,3.0,Assault / Blunt Force,0,tachycardia,normal,low
+53.0,1.0,170.0,90.0,24.0,14.0,9.0,Fall,0,normal,tachypnea,normal
+89.0,0.0,190.0,63.0,12.0,9.0,7.0,Fall,0,normal,normal,normal
+64.0,0.0,110.0,87.0,18.0,13.0,1.0,Fall,0,normal,normal,normal
+80.0,0.0,160.0,84.0,15.0,14.0,5.0,Fall,0,normal,normal,normal
+70.0,0.0,145.0,80.0,20.0,14.0,2.0,Motor Vehicle Collision,0,normal,normal,normal
+54.0,0.0,193.0,114.0,20.0,15.0,15.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+56.0,0.0,140.0,84.0,18.0,15.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+34.0,1.0,158.0,163.0,18.0,15.0,19.0,Fall,0,tachycardia,normal,normal
+81.0,1.0,180.0,91.0,18.0,15.0,1.0,Fall,0,normal,normal,normal
+25.0,1.0,130.0,83.0,16.0,15.0,7.0,Gunshot Wound (GSW),0,normal,normal,normal
+78.0,0.0,132.0,72.0,18.0,15.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+49.0,1.0,142.0,62.0,24.0,15.0,5.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+16.0,1.0,170.0,80.0,20.0,10.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+29.0,1.0,112.0,74.0,20.0,15.0,13.0,Motor Vehicle Collision,0,normal,normal,normal
+60.0,1.0,180.0,105.0,20.0,15.0,4.0,Fall,0,tachycardia,normal,normal
+60.0,0.0,101.0,144.0,14.0,6.0,5.0,Fall,0,tachycardia,normal,normal
+39.0,1.0,112.0,74.0,22.0,14.0,5.0,Assault / Blunt Force,0,normal,tachypnea,normal
+52.0,1.0,150.0,68.0,20.0,11.0,4.0,Assault / Blunt Force,0,normal,normal,normal
+58.0,1.0,110.0,113.0,33.0,14.0,2.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+44.0,1.0,132.0,91.0,16.0,15.0,3.0,Fall,0,normal,normal,normal
+17.0,1.0,130.0,70.0,18.0,15.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+15.0,1.0,160.0,85.0,18.0,15.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+74.0,1.0,160.0,79.0,18.0,15.0,3.0,Fall,0,normal,normal,normal
+69.0,1.0,224.0,74.0,22.0,14.0,5.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+40.0,1.0,160.0,90.0,24.0,13.0,2.0,Fall,0,normal,tachypnea,normal
+47.0,0.0,130.0,104.0,20.0,11.0,2.0,Fall,0,tachycardia,normal,normal
+59.0,1.0,154.0,85.0,18.0,15.0,1.0,Other / Unknown,0,normal,normal,normal
+66.0,1.0,118.0,52.0,17.0,15.0,8.0,Bicycle Crash,0,normal,normal,normal
+60.0,1.0,102.0,84.0,20.0,14.0,4.0,Fall,0,normal,normal,normal
+78.0,1.0,108.0,105.0,18.0,15.0,13.0,Fall,0,tachycardia,normal,normal
+51.0,1.0,173.0,92.0,0.0,3.0,13.0,Motor Vehicle Collision,0,normal,normal,normal
+54.0,0.0,130.0,86.0,12.0,10.0,9.0,Motor Vehicle Collision,0,normal,normal,normal
+59.0,1.0,110.0,90.0,18.0,12.0,11.0,Fall,0,normal,normal,normal
+36.0,1.0,110.0,79.0,8.0,5.0,1.0,Motor Vehicle Collision,0,normal,normal,normal
+96.0,1.0,165.0,79.0,14.0,14.0,9.0,Fall,0,normal,normal,normal
+15.0,1.0,110.0,83.0,24.0,10.0,6.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+80.0,1.0,170.0,72.0,18.0,14.0,3.0,Fall,0,normal,normal,normal
+28.0,0.0,110.0,91.0,18.0,15.0,2.0,Motor Vehicle Collision,0,normal,normal,normal
+79.0,0.0,138.0,88.0,18.0,15.0,4.0,Fall,0,normal,normal,normal
+61.0,1.0,160.0,99.0,16.0,15.0,18.0,Assault / Blunt Force,0,normal,normal,normal
+56.0,1.0,100.0,82.0,20.0,14.0,7.0,Motor Vehicle Collision,0,normal,normal,normal
+57.0,1.0,172.0,65.0,24.0,14.0,18.0,Fall,0,normal,tachypnea,normal
+33.0,0.0,116.0,69.0,18.0,15.0,5.0,Bicycle Crash,0,normal,normal,normal
+56.0,0.0,122.0,80.0,20.0,15.0,2.0,Motor Vehicle Collision,0,normal,normal,normal
+70.0,0.0,98.0,80.0,20.0,14.0,3.0,Fall,0,normal,normal,normal
+42.0,0.0,70.0,139.0,12.0,6.0,21.0,Motor Vehicle Collision,0,tachycardia,normal,low
+39.0,1.0,140.0,94.0,20.0,14.0,5.0,Fall,0,normal,normal,normal
+45.0,0.0,82.0,133.0,20.0,14.0,10.0,Motor Vehicle Collision,0,tachycardia,normal,low
+24.0,0.0,100.0,87.0,20.0,14.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+49.0,1.0,130.0,85.0,20.0,15.0,2.0,Fall,0,normal,normal,normal
+17.0,0.0,120.0,77.0,18.0,15.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+21.0,1.0,138.0,79.0,16.0,13.0,3.0,Assault / Blunt Force,0,normal,normal,normal
+35.0,0.0,156.0,119.0,20.0,3.0,2.0,Fall,0,tachycardia,normal,normal
+65.0,0.0,212.0,70.0,18.0,13.0,10.0,Fall,0,normal,normal,normal
+56.0,0.0,108.0,100.0,20.0,14.0,10.0,Motor Vehicle Collision,0,normal,normal,normal
+63.0,1.0,160.0,73.0,18.0,10.0,1.0,Fall,0,normal,normal,normal
+53.0,1.0,142.0,81.0,16.0,15.0,5.0,Bicycle Crash,0,normal,normal,normal
+72.0,1.0,140.0,94.0,18.0,14.0,6.0,Assault / Blunt Force,0,normal,normal,normal
+61.0,1.0,133.0,92.0,18.0,15.0,3.0,Assault / Blunt Force,0,normal,normal,normal
+44.0,1.0,120.0,55.0,18.0,15.0,7.0,Gunshot Wound (GSW),0,normal,normal,normal
+63.0,1.0,210.0,178.0,18.0,13.0,1.0,Motor Vehicle Collision,0,tachycardia,normal,normal
+70.0,0.0,190.0,78.0,18.0,15.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+49.0,1.0,139.0,92.0,18.0,14.0,5.0,Assault / Blunt Force,0,normal,normal,normal
+44.0,1.0,142.0,69.0,16.0,15.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+87.0,1.0,140.0,72.0,18.0,15.0,1.0,Fall,0,normal,normal,normal
+19.0,1.0,100.0,81.0,18.0,12.0,3.0,Motor Vehicle Collision,0,normal,normal,normal
+66.0,1.0,162.0,107.0,16.0,15.0,2.0,Fall,0,tachycardia,normal,normal
+60.0,1.0,101.0,67.0,20.0,15.0,4.0,Other / Unknown,0,normal,normal,normal
+31.0,1.0,130.0,97.0,18.0,15.0,2.0,Fall,0,normal,normal,normal
+76.0,1.0,220.0,89.0,18.0,15.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+47.0,1.0,110.0,57.0,18.0,14.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+88.0,1.0,180.0,72.0,18.0,15.0,8.0,Fall,0,normal,normal,normal
+81.0,1.0,140.0,88.0,18.0,14.0,1.0,Fall,0,normal,normal,normal
+70.0,1.0,140.0,86.0,20.0,14.0,5.0,Fall,0,normal,normal,normal
+61.0,1.0,182.0,80.0,16.0,14.0,11.0,Assault / Blunt Force,0,normal,normal,normal
+51.0,1.0,144.0,60.0,18.0,15.0,1.0,Bicycle Crash,0,normal,normal,normal
+50.0,0.0,138.39402180873614,95.58885059414764,16.72167659529176,11.583929186897144,15.0,Assault / Blunt Force,0,normal,normal,normal
+58.0,1.0,122.0,82.0,22.0,15.0,9.0,Motor Vehicle Collision,0,normal,tachypnea,normal
+62.0,1.0,140.0,86.0,18.0,15.0,5.0,Motor Vehicle Collision,0,normal,normal,normal
+52.0,1.0,170.0,83.0,16.0,15.0,2.0,Assault / Blunt Force,0,normal,normal,normal
+79.0,1.0,140.0,94.0,20.0,14.0,2.0,Fall,0,normal,normal,normal
+40.0,1.0,115.0,89.0,20.0,15.0,3.0,Fall,0,normal,normal,normal
+72.0,0.0,132.0,92.0,20.0,15.0,4.0,Motor Vehicle Collision,0,normal,normal,normal
+75.0,0.0,126.0,93.0,18.0,14.0,7.0,Fall,0,normal,normal,normal
+82.0,0.0,140.0,82.0,18.0,15.0,9.0,Motor Vehicle Collision,0,normal,normal,normal
+74.0,1.0,140.0,67.0,18.0,11.0,16.0,Fall,0,normal,normal,normal
+56.0,1.0,150.0,96.0,20.0,10.0,16.0,Fall,0,normal,normal,normal
+51.0,1.0,168.0,68.0,16.0,5.0,14.0,Assault / Blunt Force,0,normal,normal,normal
+76.0,1.0,171.0,97.0,18.0,15.0,19.0,Motor Vehicle Collision,0,normal,normal,normal
+24.0,1.0,118.0,97.0,0.0,7.0,20.0,Assault / Blunt Force,0,normal,normal,normal
+45.0,1.0,127.0,104.0,18.0,14.0,41.0,Fall,0,tachycardia,normal,normal
+77.0,1.0,158.0,54.0,0.0,6.0,16.0,Fall,0,normal,normal,normal
+68.0,1.0,150.0,81.0,16.0,13.0,45.0,Motor Vehicle Collision,0,normal,normal,normal
+46.0,1.0,102.0,86.0,20.0,14.0,19.0,Motor Vehicle Collision,0,normal,normal,normal
+52.0,1.0,168.0,99.0,0.0,3.0,24.0,Motor Vehicle Collision,0,normal,normal,normal
+47.0,0.0,178.0,114.0,28.0,14.0,36.0,Motor Vehicle Collision,0,tachycardia,tachypnea,normal
+61.0,1.0,122.0,89.0,18.0,14.0,18.0,Fall,0,normal,normal,normal

@@ -1,0 +1,16 @@
+# Local Python environment used to run the notebooks (do not commit — 500+ MB)
+.venv_tbi/
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS / editor cruft
+.ipynb_checkpoints/
+.DS_Store
+
+# Restricted single-institution data — NEVER commit (available on request only)
+florida_clean.csv
+full_clean.csv

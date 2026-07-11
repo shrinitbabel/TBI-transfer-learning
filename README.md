@@ -86,8 +86,10 @@ TBI-transfer-learning/
   encoder so source and target share an identical feature space) and uses **genuine
   per-iteration repetitions** so the reported mean ± SD and Wilcoxon tests are valid. It
   writes `fixed_results_raw.csv`, `fixed_results_summary.csv`, `fixed_results_wilcoxon.csv`,
-  a C-index bar chart (`fixed_cindex_by_source.png`), and dynamic-AUC curves under
-  `results_auc/`. See [METHODS.md §9](METHODS.md) for what changed and why.
+  the C-index figures (`fig4_cindex_<source>.png`, one 3D panel per source cohort), and the
+  dynamic-AUC figures under `results_auc/` (`auc_<src>_to_<tgt>_<pct>.png` — 36 figures, one per
+  source→target pair per few-shot level, each comparing Baseline vs Standard vs Weighted TL).
+  See [METHODS.md §9](METHODS.md) for what changed and why.
 
 ---
 

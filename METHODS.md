@@ -384,7 +384,7 @@ model). The run below includes **all four cohorts (12 ordered pairs)**.
 
 (Full results, incl. 10% and 20% ratios, in `fixed_results_summary.csv`; per-repetition values
 in `fixed_results_raw.csv`; Wilcoxon p-values in `fixed_results_wilcoxon.csv`; figures in
-`fixed_cindex_by_source.png` and `results_auc/`.)
+`fig4_cindex_<source>.png` (one 3D panel per source cohort) and `results_auc/`.)
 
 **Interpretation.** The corrected analysis sharpens — and partly revises — the original narrative:
 

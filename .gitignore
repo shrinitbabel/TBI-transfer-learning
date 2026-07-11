@@ -14,3 +14,13 @@ __pycache__/
 # Restricted single-institution data — NEVER commit (available on request only)
 florida_clean.csv
 full_clean.csv
+
+# Manuscript & review documents — not part of the code repo
+*.docx
+*.doc
+Response to Reviewers*
+# Word lock / temp files
+~$*
+~WRL*.tmp
+*.tmp
+

@@ -1,0 +1,60 @@
+{
+ "cv_5fold": [
+  {
+   "cohort": "California",
+   "n": 116.6,
+   "cindex": 0.737,
+   "ibs": 0.169,
+   "pred_day7": 0.52,
+   "obs_day7": 0.638,
+   "mae_days": 5.395,
+   "mae_median_reference": 5.93
+  },
+  {
+   "cohort": "Florida",
+   "n": 52.6,
+   "cindex": 0.532,
+   "ibs": 0.252,
+   "pred_day7": 0.201,
+   "obs_day7": 0.008,
+   "mae_days": 43.192,
+   "mae_median_reference": 46.657
+  },
+  {
+   "cohort": "India",
+   "n": 1598.2,
+   "cindex": 0.721,
+   "ibs": 0.16,
+   "pred_day7": 0.477,
+   "obs_day7": 0.469,
+   "mae_days": 5.039,
+   "mae_median_reference": 5.351
+  },
+  {
+   "cohort": "Jordan",
+   "n": 22.2,
+   "cindex": 0.743,
+   "ibs": 0.172,
+   "pred_day7": 0.493,
+   "obs_day7": 0.405,
+   "mae_days": 8.401,
+   "mae_median_reference": 9.042
+  },
+  {
+   "cohort": "Pooled",
+   "n": 1789.6,
+   "cindex": 0.726,
+   "ibs": 0.157,
+   "pred_day7": 0.472,
+   "obs_day7": 0.466,
+   "mae_days": 6.345,
+   "mae_median_reference": 6.781
+  }
+ ],
+ "cohorts": [
+  "India",
+  "Jordan",
+  "California",
+  "Florida"
+ ]
+}

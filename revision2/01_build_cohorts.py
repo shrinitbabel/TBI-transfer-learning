@@ -28,7 +28,7 @@ os.makedirs(os.path.join(OUT, "cohorts"), exist_ok=True)
 # e.g. RR recorded as 0 in intubated patients, GCS recorded as 0 in pre-verbal children).
 PLAUSIBLE = {"age": (0, 110), "sbp": (40, 300), "hr": (20, 250), "rr": (4, 80), "gcs": (3, 15)}
 COLS = ["age", "sex", "sbp", "hr", "rr", "gcs", "MOI", "hr_cat_given", "rr_cat_given",
-        "sbp_cat_given", "los", "died"]
+        "sbp_cat_given", "los", "died", "icu"]
 
 flow, implaus = [], []
 
@@ -136,6 +136,8 @@ india = pd.DataFrame({
     "MOI": t["moi"].apply(map_moi),
     "los": t["los"],
     "died": (t["died"] == "Yes").astype(int),
+    # ICU stay during admission (used only by los_calculator/; licu = ICU hours, 0 if none)
+    "icu": (pd.to_numeric(t["licu"], errors="coerce") > 0).astype(float).where(pd.to_numeric(t["licu"], errors="coerce").notna()),
 })
 india = finish(india, "India")
 
@@ -168,6 +170,7 @@ jordan = pd.DataFrame({
     "sbp_cat_given": norm_cat(j["ER-systolic BP"], {"normal": "normal", "high": "normal", "low": "low"}),
     "los": pd.to_numeric(j["length of stay in the hospital (in days)"], errors="coerce"),
     "died": (j["outcome"].astype(str).str.strip().str.lower() == "died").astype(int),
+    "icu": j["admition unit"].astype(str).str.contains("ICU").astype(float).where(j["admition unit"].notna()),
 })
 jordan = finish(jordan, "Jordan")
 
@@ -182,6 +185,7 @@ california = pd.DataFrame({
     "sbp": c["SBP"], "hr": c["HR"], "rr": c["RR"], "gcs": c["Trauma GCS"],
     "MOI": c["Cause of Injury"].apply(map_moi),
     "los": c["LOS"], "died": c["Mortality"].astype(int),
+    "icu": (c["ICU LOS"].fillna(0) > 0).astype(float),   # blank ICU LOS = no ICU stay
 })
 california = finish(california, "California")
 
@@ -197,6 +201,7 @@ if os.path.exists(fl_path):
         f.loc[f[col] % 1 != 0, col] = np.nan
     florida = pd.DataFrame({k: f[k] for k in ["age", "sex", "sbp", "hr", "rr", "gcs", "MOI", "los"]})
     florida["died"] = f["event"].astype(int)
+    florida["icu"] = 1.0   # cohort is ICU admissions by definition
     florida = finish(florida, "Florida")
 else:
     print("florida_clean.csv not found - Florida cohort skipped")

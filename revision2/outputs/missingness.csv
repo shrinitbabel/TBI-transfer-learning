@@ -1,0 +1,37 @@
+cohort,variable,N,implausible_set_missing,missing_total_n,missing_total_pct
+India,age,7991,0,10,0.1
+India,sex,7991,0,0,0.0
+India,sbp,7991,29,1722,21.5
+India,hr,7991,23,1149,14.4
+India,rr,7991,83,3916,49.0
+India,gcs,7991,0,465,5.8
+India,MOI,7991,0,0,0.0
+India,los,7991,0,0,0.0
+India,died,7991,0,0,0.0
+Jordan,age,111,1,1,0.9
+Jordan,sex,111,0,0,0.0
+Jordan,sbp (category only),111,0,0,0.0
+Jordan,hr (category only),111,0,0,0.0
+Jordan,rr (category only),111,0,0,0.0
+Jordan,gcs,111,20,20,18.0
+Jordan,MOI,111,0,0,0.0
+Jordan,los,111,0,0,0.0
+Jordan,died,111,0,0,0.0
+Florida,age,263,0,0,0.0
+Florida,sex,263,0,0,0.0
+Florida,sbp,263,0,1,0.4
+Florida,hr,263,0,1,0.4
+Florida,rr,263,0,1,0.4
+Florida,gcs,263,0,0,0.0
+Florida,MOI,263,0,0,0.0
+Florida,los,263,0,0,0.0
+Florida,died,263,0,0,0.0
+California,age,583,0,0,0.0
+California,sex,583,0,0,0.0
+California,sbp,583,0,2,0.3
+California,hr,583,0,2,0.3
+California,rr,583,55,58,9.9
+California,gcs,583,0,2,0.3
+California,MOI,583,0,0,0.0
+California,los,583,0,0,0.0
+California,died,583,0,0,0.0

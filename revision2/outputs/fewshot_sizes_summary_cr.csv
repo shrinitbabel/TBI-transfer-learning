@@ -1,0 +1,13 @@
+target,ratio,n_fewshot,fewshot_discharged_min,fewshot_discharged_max,fewshot_deaths_min,fewshot_deaths_max,n_test,test_discharged,test_deaths
+California,0.05,23,21,21,2,2,117,109,8
+California,0.1,46,43,43,3,3,117,109,8
+California,0.2,93,86,86,7,7,117,109,8
+Florida,0.05,10,8,8,2,2,53,45,8
+Florida,0.1,21,18,18,3,3,53,45,8
+Florida,0.2,42,35,35,7,7,53,45,8
+India,0.05,319,240,240,79,79,1599,1203,396
+India,0.1,639,481,481,158,158,1599,1203,396
+India,0.2,1278,961,961,317,317,1599,1203,396
+Jordan,0.05,4,3,3,1,1,23,19,4
+Jordan,0.1,8,7,7,1,1,23,19,4
+Jordan,0.2,17,14,14,3,3,23,19,4

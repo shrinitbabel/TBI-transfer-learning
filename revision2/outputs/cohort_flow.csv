@@ -1,0 +1,17 @@
+cohort,step,n
+India,"TITCO registry, all admitted trauma patients",16000
+India,TBI: >=1 ICD-10 S06 (intracranial injury) code,8039
+India,Excluded: in-hospital vital status missing,8039
+India,Excluded: LOS not computable (missing admission/discharge date-time),8001
+India,Excluded: negative LOS (discharge before admission),7991
+India,Final analytic cohort,7991
+Jordan,"Pediatric trauma dataset (BIG score), all patients",424
+Jordan,TBI: 'any brain injuries' = Yes (imaging/clinical diagnosis),112
+Jordan,Excluded: in-hospital outcome missing,112
+Jordan,Excluded: LOS missing,111
+Jordan,Final analytic cohort,111
+California,Adult TBI admissions with blood alcohol tested (published dataset),583
+California,Excluded: LOS or in-hospital outcome missing,583
+California,Final analytic cohort,583
+Florida,Adults (>=18 y) with blunt TBI admitted to ICU (institutional registry),263
+Florida,Final analytic cohort,263

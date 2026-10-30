@@ -1,0 +1,5 @@
+cohort,N,age_median_IQR,male_pct,gcs_median_IQR,LOS_all_median_IQR,LOS_discharged_median_IQR,LOS_mean_SD,discharged_alive_n,in_hospital_deaths_n,mortality_pct
+India,7991,32 (20-49),78.2,11 (7-15),5.1 (2.9-8.9),5.6 (3.5-9.5),8.3 ± 14.4,6012,1979,24.8
+Jordan,111,7.0 (4.0-10.0),73.0,10 (6-15),7.0 (4.0-12.0),8.0 (5.0-14.2),12.0 ± 16.2,92,19,17.1
+Florida,263,41 (26-60),73.8,3 (3-11),36.0 (25.0-62.0),39.0 (27.2-65.5),49.0 ± 42.3,222,41,15.6
+California,583,49 (34-62),72.9,14 (11-15),5.0 (3.0-9.0),5.0 (3.0-9.0),8.5 ± 10.9,542,41,7.0

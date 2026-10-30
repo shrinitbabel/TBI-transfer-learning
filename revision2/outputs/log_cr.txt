@@ -1,0 +1,258 @@
+Loaded: {'India': 7991, 'Jordan': 111, 'Florida': 263, 'California': 583}
+pretrained India
+pretrained Jordan
+pretrained Florida
+pretrained California
+India rep 0 done  (8s)
+India rep 1 done  (16s)
+India rep 2 done  (24s)
+India rep 3 done  (32s)
+India rep 4 done  (39s)
+India rep 5 done  (47s)
+India rep 6 done  (55s)
+India rep 7 done  (64s)
+India rep 8 done  (72s)
+India rep 9 done  (80s)
+India rep 10 done  (92s)
+India rep 11 done  (102s)
+India rep 12 done  (112s)
+India rep 13 done  (122s)
+India rep 14 done  (132s)
+India rep 15 done  (142s)
+India rep 16 done  (151s)
+India rep 17 done  (161s)
+India rep 18 done  (170s)
+India rep 19 done  (179s)
+India rep 20 done  (189s)
+India rep 21 done  (198s)
+India rep 22 done  (208s)
+India rep 23 done  (217s)
+India rep 24 done  (227s)
+India rep 25 done  (235s)
+India rep 26 done  (244s)
+India rep 27 done  (252s)
+India rep 28 done  (260s)
+India rep 29 done  (269s)
+India rep 30 done  (276s)
+India rep 31 done  (286s)
+India rep 32 done  (296s)
+India rep 33 done  (305s)
+India rep 34 done  (315s)
+India rep 35 done  (324s)
+India rep 36 done  (333s)
+India rep 37 done  (342s)
+India rep 38 done  (351s)
+India rep 39 done  (361s)
+India rep 40 done  (370s)
+India rep 41 done  (378s)
+India rep 42 done  (389s)
+India rep 43 done  (401s)
+India rep 44 done  (412s)
+India rep 45 done  (422s)
+India rep 46 done  (433s)
+India rep 47 done  (444s)
+India rep 48 done  (455s)
+India rep 49 done  (466s)
+Jordan rep 0 done  (466s)
+Jordan rep 1 done  (467s)
+Jordan rep 2 done  (467s)
+Jordan rep 3 done  (468s)
+Jordan rep 4 done  (469s)
+Jordan rep 5 done  (469s)
+Jordan rep 6 done  (470s)
+Jordan rep 7 done  (470s)
+Jordan rep 8 done  (471s)
+Jordan rep 9 done  (471s)
+Jordan rep 10 done  (472s)
+Jordan rep 11 done  (473s)
+Jordan rep 12 done  (473s)
+Jordan rep 13 done  (474s)
+Jordan rep 14 done  (474s)
+Jordan rep 15 done  (475s)
+Jordan rep 16 done  (475s)
+Jordan rep 17 done  (476s)
+Jordan rep 18 done  (477s)
+Jordan rep 19 done  (477s)
+Jordan rep 20 done  (478s)
+Jordan rep 21 done  (478s)
+Jordan rep 22 done  (479s)
+Jordan rep 23 done  (479s)
+Jordan rep 24 done  (480s)
+Jordan rep 25 done  (480s)
+Jordan rep 26 done  (481s)
+Jordan rep 27 done  (482s)
+Jordan rep 28 done  (482s)
+Jordan rep 29 done  (483s)
+Jordan rep 30 done  (483s)
+Jordan rep 31 done  (484s)
+Jordan rep 32 done  (484s)
+Jordan rep 33 done  (485s)
+Jordan rep 34 done  (485s)
+Jordan rep 35 done  (486s)
+Jordan rep 36 done  (487s)
+Jordan rep 37 done  (487s)
+Jordan rep 38 done  (488s)
+Jordan rep 39 done  (488s)
+Jordan rep 40 done  (489s)
+Jordan rep 41 done  (489s)
+Jordan rep 42 done  (490s)
+Jordan rep 43 done  (491s)
+Jordan rep 44 done  (491s)
+Jordan rep 45 done  (492s)
+Jordan rep 46 done  (492s)
+Jordan rep 47 done  (493s)
+Jordan rep 48 done  (493s)
+Jordan rep 49 done  (494s)
+Florida rep 0 done  (495s)
+Florida rep 1 done  (495s)
+Florida rep 2 done  (496s)
+Florida rep 3 done  (496s)
+Florida rep 4 done  (497s)
+Florida rep 5 done  (498s)
+Florida rep 6 done  (498s)
+Florida rep 7 done  (499s)
+Florida rep 8 done  (499s)
+Florida rep 9 done  (500s)
+Florida rep 10 done  (500s)
+Florida rep 11 done  (501s)
+Florida rep 12 done  (502s)
+Florida rep 13 done  (502s)
+Florida rep 14 done  (503s)
+Florida rep 15 done  (504s)
+Florida rep 16 done  (504s)
+Florida rep 17 done  (505s)
+Florida rep 18 done  (506s)
+Florida rep 19 done  (506s)
+Florida rep 20 done  (507s)
+Florida rep 21 done  (508s)
+Florida rep 22 done  (508s)
+Florida rep 23 done  (509s)
+Florida rep 24 done  (510s)
+Florida rep 25 done  (510s)
+Florida rep 26 done  (511s)
+Florida rep 27 done  (512s)
+Florida rep 28 done  (512s)
+Florida rep 29 done  (513s)
+Florida rep 30 done  (514s)
+Florida rep 31 done  (514s)
+Florida rep 32 done  (515s)
+Florida rep 33 done  (516s)
+Florida rep 34 done  (516s)
+Florida rep 35 done  (517s)
+Florida rep 36 done  (518s)
+Florida rep 37 done  (519s)
+Florida rep 38 done  (519s)
+Florida rep 39 done  (520s)
+Florida rep 40 done  (521s)
+Florida rep 41 done  (521s)
+Florida rep 42 done  (522s)
+Florida rep 43 done  (522s)
+Florida rep 44 done  (523s)
+Florida rep 45 done  (524s)
+Florida rep 46 done  (524s)
+Florida rep 47 done  (525s)
+Florida rep 48 done  (525s)
+Florida rep 49 done  (526s)
+California rep 0 done  (527s)
+California rep 1 done  (528s)
+California rep 2 done  (528s)
+California rep 3 done  (529s)
+California rep 4 done  (530s)
+California rep 5 done  (531s)
+California rep 6 done  (532s)
+California rep 7 done  (532s)
+California rep 8 done  (533s)
+California rep 9 done  (534s)
+California rep 10 done  (535s)
+California rep 11 done  (535s)
+California rep 12 done  (536s)
+California rep 13 done  (537s)
+California rep 14 done  (538s)
+California rep 15 done  (538s)
+California rep 16 done  (539s)
+California rep 17 done  (540s)
+California rep 18 done  (541s)
+California rep 19 done  (542s)
+California rep 20 done  (542s)
+California rep 21 done  (543s)
+California rep 22 done  (544s)
+California rep 23 done  (545s)
+California rep 24 done  (546s)
+California rep 25 done  (547s)
+California rep 26 done  (547s)
+California rep 27 done  (548s)
+California rep 28 done  (549s)
+California rep 29 done  (549s)
+California rep 30 done  (550s)
+California rep 31 done  (551s)
+California rep 32 done  (552s)
+California rep 33 done  (553s)
+California rep 34 done  (553s)
+California rep 35 done  (554s)
+California rep 36 done  (554s)
+California rep 37 done  (555s)
+California rep 38 done  (556s)
+California rep 39 done  (556s)
+California rep 40 done  (557s)
+California rep 41 done  (557s)
+California rep 42 done  (558s)
+California rep 43 done  (559s)
+California rep 44 done  (560s)
+California rep 45 done  (560s)
+California rep 46 done  (561s)
+California rep 47 done  (562s)
+California rep 48 done  (563s)
+California rep 49 done  (563s)
+imputation fallbacks (predictor entirely missing in a few-shot subset): 0
+                  n_fewshot  fewshot_discharged_min  fewshot_discharged_max  fewshot_deaths_min  fewshot_deaths_max  n_test  test_discharged  test_deaths
+target     ratio                                                                                                                                         
+California 0.05          23                      21                      21                   2                   2     117              109            8
+           0.10          46                      43                      43                   3                   3     117              109            8
+           0.20          93                      86                      86                   7                   7     117              109            8
+Florida    0.05          10                       8                       8                   2                   2      53               45            8
+           0.10          21                      18                      18                   3                   3      53               45            8
+           0.20          42                      35                      35                   7                   7      53               45            8
+India      0.05         319                     240                     240                  79                  79    1599             1203          396
+           0.10         639                     481                     481                 158                 158    1599             1203          396
+           0.20        1278                     961                     961                 317                 317    1599             1203          396
+Jordan     0.05           4                       3                       3                   1                   1      23               19            4
+           0.10           8                       7                       7                   1                   1      23               19            4
+           0.20          17                      14                      14                   3                   3      23               19            4
+         source      target  ratio                method  delta_mean  delta_lo  delta_hi       p   q_fdr
+0    California     Florida   0.05              standard      0.0002   -0.0854    0.0763  0.8708  0.8957
+1    California     Florida   0.05              weighted      0.0005   -0.0860    0.0798  0.9390  0.9390
+2    California     Florida   0.05  standard_vs_weighted      0.0003       NaN       NaN  0.8980     NaN
+9    California       India   0.05              standard      0.0080   -0.0029    0.0202  0.0000  0.0000
+10   California       India   0.05              weighted      0.0029   -0.0075    0.0167  0.0037  0.0063
+11   California       India   0.05  standard_vs_weighted     -0.0051       NaN       NaN  0.0000     NaN
+18   California      Jordan   0.05              standard      0.0759   -0.0536    0.2594  0.0000  0.0000
+19   California      Jordan   0.05              weighted      0.0756   -0.0608    0.2530  0.0000  0.0000
+20   California      Jordan   0.05  standard_vs_weighted     -0.0003       NaN       NaN  0.4894     NaN
+27      Florida  California   0.05              standard     -0.0104   -0.0524    0.0527  0.0001  0.0003
+28      Florida  California   0.05              weighted     -0.0134   -0.0782    0.0339  0.0004  0.0008
+29      Florida  California   0.05  standard_vs_weighted     -0.0029       NaN       NaN  0.8258     NaN
+36      Florida       India   0.05              standard      0.0005   -0.0075    0.0094  0.6736  0.7133
+37      Florida       India   0.05              weighted     -0.0022   -0.0140    0.0093  0.0290  0.0435
+38      Florida       India   0.05  standard_vs_weighted     -0.0026       NaN       NaN  0.0004     NaN
+45      Florida      Jordan   0.05              standard      0.0315   -0.0949    0.2596  0.0034  0.0061
+46      Florida      Jordan   0.05              weighted      0.0324   -0.0925    0.1899  0.0007  0.0013
+47      Florida      Jordan   0.05  standard_vs_weighted      0.0009       NaN       NaN  0.9699     NaN
+54        India  California   0.05              standard      0.0249   -0.0151    0.0672  0.0000  0.0000
+55        India  California   0.05              weighted      0.0233   -0.0205    0.0671  0.0000  0.0000
+56        India  California   0.05  standard_vs_weighted     -0.0016       NaN       NaN  0.5451     NaN
+63        India     Florida   0.05              standard      0.0079   -0.0447    0.0771  0.4467  0.5105
+64        India     Florida   0.05              weighted      0.0110   -0.0490    0.1197  0.1162  0.1549
+65        India     Florida   0.05  standard_vs_weighted      0.0031       NaN       NaN  0.4739     NaN
+72        India      Jordan   0.05              standard      0.0851   -0.0951    0.3016  0.0000  0.0000
+73        India      Jordan   0.05              weighted      0.0854   -0.0849    0.2994  0.0000  0.0000
+74        India      Jordan   0.05  standard_vs_weighted      0.0003       NaN       NaN  0.9749     NaN
+81       Jordan  California   0.05              standard      0.0241   -0.0231    0.0791  0.0000  0.0000
+82       Jordan  California   0.05              weighted      0.0258   -0.0184    0.0818  0.0000  0.0000
+83       Jordan  California   0.05  standard_vs_weighted      0.0017       NaN       NaN  0.5210     NaN
+90       Jordan     Florida   0.05              standard      0.0055   -0.0579    0.0729  0.3693  0.4359
+91       Jordan     Florida   0.05              weighted      0.0115   -0.0530    0.1009  0.1545  0.2022
+92       Jordan     Florida   0.05  standard_vs_weighted      0.0060       NaN       NaN  0.0153     NaN
+99       Jordan       India   0.05              standard      0.0049   -0.0065    0.0165  0.0000  0.0000
+100      Jordan       India   0.05              weighted     -0.0026   -0.0214    0.0105  0.0372  0.0525
+101      Jordan       India   0.05  standard_vs_weighted     -0.0075       NaN       NaN  0.0000     NaN
+total time 570s

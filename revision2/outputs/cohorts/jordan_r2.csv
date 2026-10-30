@@ -1,0 +1,112 @@
+age,sex,sbp,hr,rr,gcs,MOI,hr_cat_given,rr_cat_given,sbp_cat_given,los,died,discharged
+6.0,0,,,,15.0,Motor Vehicle Collision,tachycardia,tachypnea,normal,5.0,0,1
+7.0,1,,,,15.0,Motor Vehicle Collision,normal,normal,normal,7.0,0,1
+13.0,1,,,,3.0,Fall,normal,normal,normal,7.0,0,1
+9.0,1,,,,13.0,Motor Vehicle Collision,normal,normal,normal,28.0,0,1
+1.5,1,,,,15.0,Fall,normal,normal,normal,3.0,0,1
+14.0,1,,,,15.0,Motor Vehicle Collision,normal,normal,normal,4.0,0,1
+10.0,1,,,,6.0,Motor Vehicle Collision,tachycardia,tachypnea,normal,28.0,0,1
+1.5,1,,,,10.0,Fall,tachycardia,tachypnea,normal,7.0,1,0
+4.0,1,,,,14.0,Fall,tachycardia,tachypnea,normal,2.0,0,1
+4.0,0,,,,8.0,Motor Vehicle Collision,tachycardia,tachypnea,normal,29.0,0,1
+10.0,1,,,,4.0,Motor Vehicle Collision,tachycardia,tachypnea,low,2.0,1,0
+,1,,,,3.0,Motor Vehicle Collision,tachycardia,normal,low,3.0,1,0
+10.0,1,,,,3.0,Motor Vehicle Collision,normal,tachypnea,low,2.0,1,0
+4.0,1,,,,14.0,Motor Vehicle Collision,tachycardia,tachypnea,normal,7.0,0,1
+6.0,1,,,,10.0,Motor Vehicle Collision,tachycardia,tachypnea,low,84.0,0,1
+5.0,1,,,,,Motor Vehicle Collision,tachycardia,normal,normal,17.0,0,1
+7.0,1,,,,13.0,Fall,tachycardia,normal,normal,10.0,0,1
+11.0,1,,,,,Motor Vehicle Collision,tachycardia,tachypnea,normal,12.0,0,1
+3.0,1,,,,4.0,Burn / Fire / Blast,normal,normal,normal,8.0,1,0
+4.0,1,,,,12.0,Motor Vehicle Collision,tachycardia,tachypnea,normal,7.0,0,1
+3.0,1,,,,3.0,Fall,normal,tachypnea,normal,5.0,1,0
+3.0,1,,,,9.0,Motor Vehicle Collision,tachycardia,tachypnea,normal,10.0,0,1
+14.0,1,,,,15.0,Fall,normal,normal,normal,6.0,0,1
+10.0,1,,,,15.0,Fall,tachycardia,tachypnea,normal,3.0,0,1
+15.0,1,,,,12.0,Motor Vehicle Collision,normal,tachypnea,normal,22.0,0,1
+6.0,1,,,,15.0,Fall,normal,normal,normal,5.0,0,1
+13.0,1,,,,,Burn / Fire / Blast,normal,normal,normal,10.0,0,1
+8.0,1,,,,10.0,Motor Vehicle Collision,normal,normal,normal,5.0,0,1
+15.0,1,,,,15.0,Fall,normal,normal,normal,2.0,0,1
+5.0,1,,,,,Motor Vehicle Collision,normal,normal,normal,5.0,0,1
+7.0,0,,,,,Other / Unknown,normal,normal,normal,8.0,1,0
+10.0,1,,,,3.0,Motor Vehicle Collision,tachycardia,tachypnea,normal,16.0,0,1
+2.0,1,,,,15.0,Fall,tachycardia,normal,normal,8.0,0,1
+8.0,1,,,,3.0,Motor Vehicle Collision,tachycardia,normal,normal,18.0,0,1
+1.5,1,,,,3.0,Other / Unknown,tachycardia,normal,normal,45.0,0,1
+13.0,1,,,,15.0,Motor Vehicle Collision,tachycardia,tachypnea,normal,2.0,0,1
+16.0,1,,,,3.0,Motor Vehicle Collision,normal,normal,normal,126.0,0,1
+3.5,0,,,,15.0,Motor Vehicle Collision,tachycardia,tachypnea,normal,12.0,0,1
+8.0,1,,,,13.0,Motor Vehicle Collision,tachycardia,tachypnea,normal,8.0,0,1
+4.0,0,,,,5.0,Motor Vehicle Collision,normal,normal,normal,32.0,0,1
+12.0,0,,,,8.0,Motor Vehicle Collision,normal,normal,normal,11.0,0,1
+6.0,1,,,,11.0,Motor Vehicle Collision,tachycardia,normal,normal,6.0,0,1
+6.0,1,,,,15.0,Fall,normal,tachypnea,normal,3.0,0,1
+6.0,1,,,,11.0,Motor Vehicle Collision,normal,tachypnea,normal,7.0,0,1
+14.0,1,,,,15.0,Fall,normal,tachypnea,normal,7.0,0,1
+6.0,1,,,,6.0,Motor Vehicle Collision,tachycardia,normal,normal,10.0,0,1
+8.0,1,,,,15.0,Fall,tachycardia,tachypnea,normal,4.0,0,1
+10.0,1,,,,8.0,Motor Vehicle Collision,tachycardia,normal,normal,8.0,0,1
+16.0,0,,,,15.0,Motor Vehicle Collision,normal,normal,normal,4.0,0,1
+14.0,1,,,,8.0,Assault / Blunt Force,tachycardia,normal,low,8.0,1,0
+13.0,1,,,,,Motor Vehicle Collision,tachycardia,tachypnea,low,6.0,1,0
+5.0,0,,,,3.0,Fall,tachycardia,tachypnea,low,2.0,1,0
+5.0,0,,,,15.0,Fall,tachycardia,tachypnea,normal,4.0,0,1
+3.0,0,,,,15.0,Fall,tachycardia,tachypnea,normal,7.0,0,1
+10.0,1,,,,8.0,Fall,tachycardia,tachypnea,normal,15.0,0,1
+4.0,0,,,,6.0,Fall,tachycardia,tachypnea,normal,7.0,0,1
+10.0,1,,,,3.0,Burn / Fire / Blast,tachycardia,tachypnea,normal,1.0,1,0
+4.0,1,,,,3.0,Motor Vehicle Collision,normal,tachypnea,low,1.0,1,0
+9.0,1,,,,3.0,Motor Vehicle Collision,normal,normal,low,15.0,1,0
+9.0,1,,,,3.0,Fall,tachycardia,tachypnea,normal,4.0,0,1
+13.0,1,,,,15.0,Fall,normal,normal,normal,5.0,0,1
+13.5,1,,,,15.0,Fall,tachycardia,tachypnea,normal,10.0,0,1
+6.0,1,,,,15.0,Fall,normal,normal,low,4.0,0,1
+2.6,1,,,,5.0,Motor Vehicle Collision,normal,tachypnea,low,3.0,1,0
+12.0,1,,,,,Other / Unknown,normal,normal,normal,4.0,1,0
+7.0,0,,,,8.0,Motor Vehicle Collision,normal,normal,normal,3.0,0,1
+12.0,1,,,,,Other / Unknown,normal,normal,normal,5.0,1,0
+2.0,1,,,,,Other / Unknown,normal,normal,normal,4.0,0,1
+0.3,1,,,,,Motor Vehicle Collision,normal,normal,normal,10.0,0,1
+12.0,1,,,,,Motor Vehicle Collision,normal,normal,normal,19.0,0,1
+9.0,1,,,,11.0,Motor Vehicle Collision,normal,normal,normal,5.0,0,1
+2.5,0,,,,15.0,Motor Vehicle Collision,tachycardia,normal,normal,4.0,0,1
+4.0,0,,,,,Fall,tachycardia,normal,normal,46.0,0,1
+8.5,1,,,,10.0,Motor Vehicle Collision,normal,normal,normal,9.0,0,1
+12.0,0,,,,11.0,Motor Vehicle Collision,tachycardia,normal,normal,8.0,0,1
+6.0,0,,,,14.0,Fall,tachycardia,normal,normal,7.0,0,1
+7.0,1,,,,10.0,Motor Vehicle Collision,normal,normal,normal,12.0,0,1
+1.0,0,,,,3.0,Motor Vehicle Collision,tachycardia,normal,low,9.0,1,0
+13.0,1,,,,10.0,Motor Vehicle Collision,tachycardia,normal,normal,10.0,0,1
+6.0,1,,,,15.0,Fall,tachycardia,tachypnea,low,2.0,0,1
+13.0,1,,,,13.0,Motor Vehicle Collision,tachycardia,normal,low,12.0,0,1
+7.0,0,,,,3.0,Assault / Blunt Force,tachycardia,tachypnea,low,2.0,1,0
+7.0,1,,,,3.0,Motor Vehicle Collision,normal,normal,normal,28.0,0,1
+4.0,0,,,,8.0,Motor Vehicle Collision,normal,normal,normal,35.0,0,1
+1.5,1,,,,8.0,Assault / Blunt Force,normal,normal,normal,26.0,0,1
+3.0,1,,,,,Fall,tachycardia,normal,low,12.0,0,1
+5.0,1,,,,,Fall,normal,normal,normal,6.0,0,1
+6.0,1,,,,8.0,Motor Vehicle Collision,normal,normal,normal,5.0,0,1
+10.0,1,,,,8.0,Motor Vehicle Collision,normal,normal,normal,21.0,0,1
+7.0,1,,,,7.0,Motor Vehicle Collision,normal,normal,normal,53.0,0,1
+8.0,0,,,,11.0,Motor Vehicle Collision,normal,normal,normal,23.0,0,1
+5.0,0,,,,8.0,Motor Vehicle Collision,normal,normal,normal,11.0,0,1
+6.0,1,,,,15.0,Motor Vehicle Collision,normal,normal,normal,11.0,0,1
+7.0,0,,,,8.0,Motor Vehicle Collision,normal,normal,normal,7.0,0,1
+2.0,0,,,,12.0,Motor Vehicle Collision,normal,normal,normal,8.0,0,1
+12.0,0,,,,6.0,Motor Vehicle Collision,normal,normal,normal,30.0,0,1
+11.0,0,,,,13.0,Motor Vehicle Collision,tachycardia,normal,normal,14.0,0,1
+12.0,1,,,,6.0,Motor Vehicle Collision,tachycardia,normal,normal,14.0,0,1
+7.0,1,,,,15.0,Motor Vehicle Collision,normal,normal,normal,3.0,0,1
+8.0,0,,,,12.0,Motor Vehicle Collision,normal,tachypnea,normal,5.0,0,1
+12.0,0,,,,14.0,Motor Vehicle Collision,normal,tachypnea,normal,6.0,0,1
+13.0,0,,,,15.0,Motor Vehicle Collision,normal,normal,normal,3.0,0,1
+1.5,0,,,,9.0,Fall,tachycardia,tachypnea,low,15.0,0,1
+8.0,1,,,,15.0,Motor Vehicle Collision,tachycardia,tachypnea,normal,12.0,0,1
+6.0,1,,,,4.0,Motor Vehicle Collision,tachycardia,tachypnea,low,1.0,1,0
+0.1,1,,,,,Motor Vehicle Collision,tachycardia,tachypnea,low,16.0,0,1
+0.8,1,,,,,Fall,tachycardia,tachypnea,low,4.0,0,1
+0.3,1,,,,,Fall,tachycardia,tachypnea,normal,2.0,0,1
+0.8,1,,,,,Fall,tachycardia,tachypnea,low,6.0,0,1
+0.4,1,,,,,Motor Vehicle Collision,tachycardia,tachypnea,low,6.0,0,1
+0.1,0,,,,,Fall,tachycardia,tachypnea,normal,2.0,0,1

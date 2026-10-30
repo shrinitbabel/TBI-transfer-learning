@@ -1,0 +1,15 @@
+,Florida,India,California,Jordan
+N,263,"7,991",583,111
+"Age, median (IQR), y",41 (26-60),32 (20-49),49 (34-62),7.0 (4.0-10.0)
+"Male, %",73.8%,78.2%,72.9%,73.0%
+"Tachycardia, %",45.8%,11.7%,31.3%,51.4%
+"Tachypnea, %",42.7%,31.3%,12.6%,42.3%
+"Hypotension (age-adjusted), %",13.4%,2.5%,3.1%,19.8%
+"GCS 3-8, %",71.1%,34.4%,17.0%,42.9%
+"GCS 9-12, %",7.2%,20.5%,12.7%,18.7%
+"GCS 13-15, %",21.7%,45.1%,70.2%,38.5%
+"LOS, median (IQR), days",36.0 (25.0-62.0),5.1 (2.9-8.9),5.0 (3.0-9.0),7.0 (4.0-12.0)
+"Discharged alive, n (%)",222 (84.4%),"6,012 (75.2%)",542 (93.0%),92 (82.9%)
+"In-hospital death, n (%)",41 (15.6%),"1,979 (24.8%)",41 (7.0%),19 (17.1%)
+"Discharged by day 15, %",5.3%,65.8%,80.3%,64.0%
+MOI (top 3),Motor Vehicle Collision 21.7%; Fall 18.6%; Pedestrian Struck 17.5%; Animal/Environmental 1.5%,Fall 39.3%; Motor Vehicle Collision 38.0%; Other / Unknown 8.6%,Fall 42.7%; Motor Vehicle Collision 33.3%; Assault / Blunt Force 12.5%,Motor Vehicle Collision 60.4%; Fall 29.7%; Other / Unknown 4.5%

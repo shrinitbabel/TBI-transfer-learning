@@ -1,60 +1,91 @@
 {
- "cv_5fold": [
-  {
-   "cohort": "California",
-   "n": 116.6,
-   "cindex": 0.737,
-   "ibs": 0.169,
-   "pred_day7": 0.52,
-   "obs_day7": 0.638,
-   "mae_days": 5.395,
-   "mae_median_reference": 5.93
-  },
-  {
-   "cohort": "Florida",
-   "n": 52.6,
-   "cindex": 0.532,
-   "ibs": 0.252,
-   "pred_day7": 0.201,
-   "obs_day7": 0.008,
-   "mae_days": 43.192,
-   "mae_median_reference": 46.657
-  },
-  {
-   "cohort": "India",
-   "n": 1598.2,
-   "cindex": 0.721,
-   "ibs": 0.16,
-   "pred_day7": 0.477,
-   "obs_day7": 0.469,
-   "mae_days": 5.039,
-   "mae_median_reference": 5.351
-  },
-  {
-   "cohort": "Jordan",
-   "n": 22.2,
-   "cindex": 0.743,
-   "ibs": 0.172,
-   "pred_day7": 0.493,
-   "obs_day7": 0.405,
-   "mae_days": 8.401,
-   "mae_median_reference": 9.042
-  },
-  {
-   "cohort": "Pooled",
-   "n": 1789.6,
-   "cindex": 0.726,
-   "ibs": 0.157,
-   "pred_day7": 0.472,
-   "obs_day7": 0.466,
-   "mae_days": 6.345,
-   "mae_median_reference": 6.781
-  }
- ],
+ "n_patients": 8685,
  "cohorts": [
   "India",
   "Jordan",
-  "California",
-  "Florida"
+  "California"
+ ],
+ "folds": 5,
+ "mortality_auroc": 0.8531494346549833,
+ "mortality_brier": 0.1228478974471822,
+ "mortality_pred": 0.23500054195100747,
+ "mortality_obs": 0.2347725964306275,
+ "mortality_calibration_fifths": [
+  {
+   "pred": 0.021320046677016424,
+   "obs": 0.021288837744533946
+  },
+  {
+   "pred": 0.04970767067077523,
+   "obs": 0.051237766263673
+  },
+  {
+   "pred": 0.12747875104903178,
+   "obs": 0.13536866359447006
+  },
+  {
+   "pred": 0.3069703634018494,
+   "obs": 0.31088082901554404
+  },
+  {
+   "pred": 0.6695869940786282,
+   "obs": 0.6551525618883132
+  }
+ ],
+ "los_mae": 4.873010627891794,
+ "los_mae_reference": 5.446526210418511,
+ "range80_coverage": 0.7983749623833885,
+ "range80_width_median": 10.387514470518756,
+ "benchmark_pooled": [
+  {
+   "method": "conformal",
+   "mort_auroc": 0.854,
+   "mort_brier": 0.123,
+   "mort_pred": 0.235,
+   "mort_obs": 0.235,
+   "los_mae": 4.873,
+   "range80_coverage": 0.798,
+   "range80_width": 10.416
+  },
+  {
+   "method": "deephit",
+   "mort_auroc": 0.851,
+   "mort_brier": 0.135,
+   "mort_pred": 0.198,
+   "mort_obs": 0.235,
+   "los_mae": 5.229,
+   "range80_coverage": 0.823,
+   "range80_width": 11.904
+  },
+  {
+   "method": "ngboost",
+   "mort_auroc": 0.853,
+   "mort_brier": 0.123,
+   "mort_pred": 0.228,
+   "mort_obs": 0.235,
+   "los_mae": 4.892,
+   "range80_coverage": 0.81,
+   "range80_width": 10.98
+  },
+  {
+   "method": "survival",
+   "mort_auroc": 0.853,
+   "mort_brier": 0.123,
+   "mort_pred": 0.234,
+   "mort_obs": 0.235,
+   "los_mae": 5.122,
+   "range80_coverage": 0.799,
+   "range80_width": 13.5
+  },
+  {
+   "method": "twopart",
+   "mort_auroc": 0.854,
+   "mort_brier": 0.123,
+   "mort_pred": 0.235,
+   "mort_obs": 0.235,
+   "los_mae": 4.873,
+   "range80_coverage": 0.792,
+   "range80_width": 10.172
+  }
  ]
 }

@@ -1,39 +1,51 @@
 # TBI Length-of-Stay Estimator (side project)
 
-A browser-based calculator that estimates how long a patient with traumatic brain injury will
-stay in hospital. It is **not** part of the published transfer-learning study and is for
-research use only.
+A browser-based calculator that estimates, for a patient with traumatic brain injury, the risk of
+dying in hospital and the likely length of stay if discharged alive. It is **not** part of the
+published transfer-learning study and is for research use only.
 
-- **Model:** one Gradient Boosting Survival Analysis model (150 trees) trained on the pooled
-  cohorts built by `revision2/01_build_cohorts.py`: India (TITCO), Jordan, California and Florida.
-- **Outcome:** time to live discharge, with in-hospital death as a competing event
-  (Fine–Gray subdistribution coding, as in the paper).
-- **Inputs:** age, sex, GCS, ICU admission, mechanism of injury, heart rate, respiratory rate,
-  systolic blood pressure. Vital signs are converted to age-specific categories, as in the paper.
-- **Outputs:** probability of having been discharged alive by each day, the predicted median
-  stay among patients discharged alive, and the probability of not being discharged alive
-  (approximately the in-hospital death risk).
-- **Validation:** 5-fold cross-validation, reported per cohort in `validation.json` and on the page.
+## Model
 
-The page is a single static file (`index.html`) with the model embedded. Predictions are
-computed in the browser, and nothing the user enters is sent anywhere.
+- **Data:** pooled India (TITCO), Jordan and California cohorts built by
+  `revision2/01_build_cohorts.py` (8,685 patients). Florida was excluded because neither the
+  mortality nor the length-of-stay predictions were better than chance for that cohort.
+- **Inputs:** age, sex, GCS, ICU admission, mechanism of injury, heart rate, respiratory rate and
+  systolic blood pressure. Vital signs become age-specific categories, as in the paper.
+- **Death risk:** gradient-boosted classifier.
+- **Length of stay (among patients discharged alive):** gradient-boosted quantile trees on log
+  length of stay, giving the median and an 80% range. A split-conformal correction keeps the
+  range's coverage at its stated 80%.
+
+## How the model was chosen
+
+`benchmark_methods.py` compares five approaches on the same 5-fold cross-validation
+(`benchmark_results.csv`):
+- survival boosting with competing risks (the approach in the paper)
+- boosted classifier plus boosted quantile trees
+- the same with conformal calibration
+- NGBoost
+- a DeepHit neural network, implemented in PyTorch
+
+All five discriminate mortality equally (AUROC ≈ 0.85). The conformal boosted model had the
+smallest length-of-stay error (4.9 days, against 5.4 days for predicting the median for everyone).
+Its 80% range contained 80% of stays.
+
+## Files
+
+| File | Purpose |
+|---|---|
+| `train_pooled_model.py` | shared preprocessing and the survival-boosting baseline |
+| `compare_methods.py`, `benchmark_methods.py` | method comparisons (5-fold CV) |
+| `train_calculator.py` | final model; writes `model.json` and `validation.json`; checks the browser replica against scikit-learn |
+| `template.html`, `build_page.py` | build `index.html` (standalone) and `page.html` (body only) |
 
 ## Rebuild
 
 ```bash
-python revision2/01_build_cohorts.py                         # cohorts (incl. ICU flag)
-python los_calculator/train_pooled_model.py --include-florida # model.json, validation.json
-python los_calculator/build_page.py                          # index.html
+python revision2/01_build_cohorts.py
+python los_calculator/benchmark_methods.py      # optional, about 15 min
+python los_calculator/train_calculator.py
+python los_calculator/build_page.py
 ```
 
-`train_pooled_model.py` checks that its pure-Python replica of the browser computation matches
-scikit-survival's predictions before exporting the model.
-
-## Limitations
-
-- **Cohort coverage:** trained on four urban cohorts. The model has no hospital or country input,
-  so it predicts an average across these systems.
-- **Florida performance:** discrimination for the Florida ICU cohort is near chance. Long
-  intensive-care stays are predicted poorly.
-- **ICU input:** "Admitted to intensive care" means any ICU stay during the admission, which is not
-  always known at presentation.
+Predictions run entirely in the browser, and nothing the user enters is sent anywhere.

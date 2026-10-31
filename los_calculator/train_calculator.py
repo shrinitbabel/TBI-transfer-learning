@@ -113,6 +113,11 @@ assert max(checks.values()) < 1e-4
 alive = df.discharged == 1
 model = {"features": FEATURES, "moi_categories": MOI_CATS, "models": E, "conformal_adjust": adj,
          "range": [LO, HI], "trained_on": {n: int((df.cohort == n).sum()) for n in NAMES},
+         # typical pooled patient in raw-input terms; the API swaps one input at a time to these values
+         # to show how each input shifts this patient's prediction (vitals None = within normal limits)
+         "reference_patient": {"age": float(df.age.median()), "gcs": float(df.gcs.median()),
+                               "male": int(df.sex.mean() >= 0.5), "icu": int(df.icu.fillna(0).mean() >= 0.5),
+                               "moi": str(df.MOI.mode()[0]), "hr": None, "rr": None, "sbp": None},
          "reference": {"death_rate": float(df.died.mean()), "los_median": float(df.los[alive].median()),
                        "los_p10": float(df.los[alive].quantile(LO)), "los_p90": float(df.los[alive].quantile(HI))}}
 json.dump(model, open(os.path.join(HERE, "model.json"), "w"), separators=(",", ":"))
